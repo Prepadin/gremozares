@@ -1,9 +1,9 @@
 {
-  "desc": "Manage files and knowledge base",
+  "desc": "Upravljajte datoteke in bazo znanja",
   "detail": {
     "basic": {
       "createdAt": "Creation Time",
-      "filename": "File Name",
+      "filename": "Ime Datoteke",
       "size": "File Size",
       "title": "Basic Information",
       "type": "Format",
@@ -25,22 +25,22 @@
   "header": {
     "actions": {
       "newFolder": "New Folder",
-      "uploadFile": "Upload File",
-      "uploadFolder": "Upload Folder"
+      "uploadFile": "Naloži Datoteko",
+      "uploadFolder": "Naloži Mapo"
     },
-    "uploadButton": "Upload"
+    "uploadButton": "Naloži"
   },
   "knowledgeBase": {
     "list": {
-      "confirmRemoveKnowledgeBase": "You are about to delete this knowledge base. The files within will not be deleted and will be moved to All Files. Once deleted, the knowledge base cannot be recovered. Please proceed with caution.",
-      "empty": "Click <1>+</1> to add a knowledge base"
+      "confirmRemoveKnowledgeBase": "Izbrisali boste to bazo znanja. Datoteke znotraj ne bodo izbrisane in bodo premaknjene v Vse datoteke. Po izbrisu baze znanja ni več mogoče obnoviti. Prosimo, nadaljujte previdno.",
+      "empty": "Pritisnite <1>+</1> dodajo bazo znanja"
     },
-    "new": "New Knowledge Base",
-    "title": "Knowledge Base"
+    "new": "Nova Baza Znanja",
+    "title": "Baza Znanja"
   },
-  "networkError": "Failed to retrieve the knowledge base. Please check your network connection and try again.",
+  "networkError": "Baze znanja ni bilo mogoče pridobiti. Preverite omrežno povezavo in poskusite znova.",
   "notSupportGuide": {
-    "desc": "The current deployment instance is in client database mode, and file management features are not available. Please switch to <1>server database deployment mode</1>, or use <3>LobeChat Cloud</3> directly.",
+    "desc": "Trenutni primerek razmestitve je v načinu baze podatkov odjemalca in funkcije za upravljanje datotek niso na voljo. Please switch to <1>server database deployment mode</1>, or use <3>LobeChat Cloud</3> directly.",
     "features": {
       "allKind": {
         "desc": "Supports mainstream file types, including common document formats like Word, PPT, Excel, PDF, TXT, as well as popular code files like JS and Python.",
@@ -61,16 +61,16 @@
     "downloadFile": "Download File",
     "unsupportedFileAndContact": "This file format is not currently supported for online preview. If you have a request for previewing, feel free to <1>contact us</1>."
   },
-  "searchFilePlaceholder": "Search Files",
+  "searchFilePlaceholder": "Išči datoteke",
   "tab": {
-    "all": "All Files",
-    "audios": "Audio",
-    "documents": "Documents",
-    "images": "Images",
-    "videos": "Videos",
-    "websites": "Websites"
+    "all": "Vse datoteke",
+    "audios": "Zvok",
+    "documents": "Datoteke",
+    "images": "Slike",
+    "videos": "Posnetki",
+    "websites": "Spletne Strani"
   },
-  "title": "Files",
+  "title": "Datoteke",
   "uploadDock": {
     "body": {
       "collapse": "Collapse",
