@@ -89,16 +89,16 @@
   "copySuccess": "Copied successfully",
   "dataStatistics": {
     "messages": "Messages",
-    "sessions": "Assistants",
+    "sessions": "Pomočniki",
     "today": "Today's New",
     "topics": "Topics"
   },
-  "defaultAgent": "Default Assistant",
-  "defaultSession": "Default Assistant",
-  "delete": "Delete",
+  "defaultAgent": "Osnovni pomočnik",
+  "defaultSession": "Osnovni pomočnik",
+  "delete": "Izbriši",
   "document": "User Manual",
   "download": "Download",
-  "duplicate": "Create Duplicate",
+  "duplicate": "Ustvari Dvojnika",
   "edit": "Edit",
   "export": "Export Configuration",
   "exportType": {
@@ -151,14 +151,14 @@
       "errors": "Import errors",
       "messages": "Messages",
       "sessionGroups": "Groups",
-      "sessions": "Assistants",
+      "sessions": "Pomočniki",
       "skips": "Duplicates skipped",
       "topics": "Topics",
       "type": "Data Type"
     },
     "title": "Import Data",
     "uploading": {
-      "desc": "The current file is large, and is being uploaded...",
+      "desc": "Trenutna datoteka je velika in se nalaga...",
       "restTime": "Time remaining",
       "speed": "Upload speed"
     }
@@ -260,9 +260,9 @@
     }
   },
   "tab": {
-    "chat": "Chat",
-    "discover": "Discover",
-    "files": "Files",
+    "chat": "Klepet",
+    "discover": "Razišči",
+    "files": "Datoteke",
     "me": "Me",
     "setting": "Settings"
   },
@@ -283,21 +283,21 @@
     "newVersion": "New version available: {{version}}"
   },
   "userPanel": {
-    "anonymousNickName": "Anonymous User",
+    "anonymousNickName": "Anonimni uporabnik",
     "billing": "Billing Management",
     "cloud": "Launch {{name}}",
     "community": "Community Edition",
     "data": "Data Storage",
     "defaultNickname": "Community User",
     "discord": "Community Support",
-    "docs": "Documentation",
-    "email": "Email Support",
+    "docs": "Navodila",
+    "email": "Podpora preko e-pošte",
     "feedback": "Feedback and Suggestions",
-    "help": "Help Center",
+    "help": "Pomoč",
     "moveGuide": "The settings button has been moved here",
     "plans": "Subscription Plans",
-    "profile": "Account",
-    "setting": "Settings",
+    "profile": "Profil",
+    "setting": "Nastavitve",
     "usages": "Usage Statistics"
   },
   "version": "Version"

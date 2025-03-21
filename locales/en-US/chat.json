@@ -22,7 +22,7 @@
   "confirmRemoveSessionItemAlert": "You are about to delete this assistant. Once deleted, it cannot be retrieved. Please confirm your action.",
   "confirmRemoveSessionSuccess": "Assistant removed successfully",
   "defaultAgent": "Default Assistant",
-  "defaultList": "Default List",
+  "defaultList": "Privzeti seznam",
   "defaultSession": "Default Assistant",
   "duplicateSession": {
     "loading": "Copying...",

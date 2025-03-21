@@ -1,50 +1,50 @@
 {
   "DragUpload": {
-    "dragDesc": "Drag and drop files here to upload multiple images.",
-    "dragFileDesc": "Drag and drop images and files here to upload multiple images and files.",
-    "dragFileTitle": "Upload Files",
-    "dragTitle": "Upload Images"
+    "dragDesc": "Tukaj povlecite in spustite datoteke, da naložite več slik.",
+    "dragFileDesc": "Tukaj povlecite in spustite slike in datoteke, da naložite več slik in datotek.",
+    "dragFileTitle": "Naloi Datoteke",
+    "dragTitle": "Naloži Slike"
   },
   "FileManager": {
     "actions": {
-      "addToKnowledgeBase": "Add to Knowledge Base",
-      "addToOtherKnowledgeBase": "Add to Other Knowledge Base",
-      "batchChunking": "Batch Chunking",
-      "chunking": "Chunking",
-      "chunkingTooltip": "Split the file into multiple text chunks and embedding them for semantic search and file dialogue.",
-      "chunkingUnsupported": "This file does not support chunking.",
-      "confirmDelete": "You are about to delete this file. Once deleted, it cannot be recovered. Please confirm your action.",
-      "confirmDeleteMultiFiles": "You are about to delete the selected {{count}} files. Once deleted, they cannot be recovered. Please confirm your action.",
-      "confirmRemoveFromKnowledgeBase": "You are about to remove the selected {{count}} files from the knowledge base. They will still be viewable in all files. Please confirm your action.",
-      "copyUrl": "Copy Link",
-      "copyUrlSuccess": "File url copied successfully.",
-      "createChunkingTask": "Preparing...",
-      "deleteSuccess": "File deleted successfully.",
-      "downloading": "Downloading file...",
-      "removeFromKnowledgeBase": "Remove from Knowledge Base",
-      "removeFromKnowledgeBaseSuccess": "File removed successfully."
+      "addToKnowledgeBase": "Dodaj v Bazo Znanja",
+      "addToOtherKnowledgeBase": "Dodaj v drugo Bazo Znanja",
+      "batchChunking": "Serijsko Deljenje",
+      "chunking": "Trganje",
+      "chunkingTooltip": "Razdelite datoteko na več kosov besedila in jih vdelajte za semantično iskanje in pogovorno okno datoteke.",
+      "chunkingUnsupported": "Ta datoteka ne podpira deljenja.",
+      "confirmDelete": "To datoteko boste izbrisali. Ko je izbrisan, ga ni mogoče obnoviti. Prosimo, potrdite svoje dejanje.",
+      "confirmDeleteMultiFiles": "Izbrisali boste izbrane {{count}} datoteke. Ko so izbrisani, jih ni mogoče obnoviti. Prosimo, potrdite svoje dejanje.",
+      "confirmRemoveFromKnowledgeBase": "Kmalu boste odstranili izbrane {{count}} Datoteke iz Zbirke Znanja. Še vedno bodo vidne v vseh datotekah. Prosimo, potrdite svoje dejanje.",
+      "copyUrl": "Kopiraj povezavo",
+      "copyUrlSuccess": "URL datoteke je bil uspešno kopiran.",
+      "createChunkingTask": "Priprava...",
+      "deleteSuccess": "Datoteka je bila uspešno izbrisana.",
+      "downloading": "Prenos datoteke...",
+      "removeFromKnowledgeBase": "Odstrani iz Zbirke Znanja",
+      "removeFromKnowledgeBaseSuccess": "Datoteka je bila uspešno odstranjena."
     },
-    "bottom": "You've reached the end.",
+    "bottom": "Prišli ste do konca.",
     "config": {
-      "showFilesInKnowledgeBase": "Show content in Knowledge Base"
+      "showFilesInKnowledgeBase": "Prikaz vsebine v zbirki znanja"
     },
     "emptyStatus": {
       "actions": {
-        "file": "Upload File",
-        "folder": "Upload Folder",
-        "knowledgeBase": "Create New Knowledge Base"
+        "file": "Naloži Datoteko",
+        "folder": "Naloži Mapo",
+        "knowledgeBase": "Ustvari Zbirko Znanja"
       },
-      "or": "or",
-      "title": "Drag files or folders here"
+      "or": "ali",
+      "title": "Prenesite datoteke ali mape tukaj"
     },
     "title": {
-      "createdAt": "Created At",
-      "size": "Size",
-      "title": "File"
+      "createdAt": "Ustvarjeno v",
+      "size": "Velikost",
+      "title": "Datoteka"
     },
     "total": {
-      "fileCount": "Total {{count}} items",
-      "selectedCount": "Selected {{count}} items"
+      "fileCount": "Vseh {{count}} predmetov",
+      "selectedCount": "Označenih {{count}} predmetov"
     }
   },
   "FileParsingStatus": {
