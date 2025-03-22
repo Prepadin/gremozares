@@ -1,5 +1,5 @@
 import { ActionIcon } from '@lobehub/ui';
-import { Compass, FolderClosed, MessageSquare } from 'lucide-react';
+import { FolderClosed, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -17,7 +17,7 @@ export interface TopActionProps {
 const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
   const { t } = useTranslation('common');
   const switchBackToChat = useGlobalStore((s) => s.switchBackToChat);
-  const { showMarket, enableKnowledgeBase } = useServerConfigStore(featureFlagsSelectors);
+  const { enableKnowledgeBase } = useServerConfigStore(featureFlagsSelectors);
 
   return (
     <>
@@ -48,7 +48,7 @@ const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
           />
         </Link>
       )}
-      {showMarket && (
+      {/* {showMarket && (
         <Link aria-label={t('tab.discover')} href={'/discover'}>
           <ActionIcon
             active={tab === SidebarTabKey.Discover}
@@ -58,7 +58,7 @@ const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
             title={t('tab.discover')}
           />
         </Link>
-      )}
+      )} */}
     </>
   );
 });
