@@ -1,45 +1,45 @@
 {
   "guide": {
     "agents": {
-      "replaceBtn": "Replace Batch",
-      "title": "New Assistant Recommendations:"
+      "replaceBtn": "Zamenjaj serijo",
+      "title": "Nove priporočila za pomočnika:"
     },
-    "defaultMessage": "Sem vaš osebni inteligentni pomočnik {{appName}}.Kako vam lahko danes pomagam?\nČe potrebujete bolj profesionalnega ali prilagojenega pomočnika, lahko kliknete »+«, da ustvarite pomočnika po meri.",
+    "defaultMessage": "Sem vaš osebni inteligentni pomočnik {{appName}}. Kako vam lahko danes pomagam?\nČe potrebujete bolj profesionalnega ali prilagojenega pomočnika, lahko kliknete »+«, da ustvarite pomočnika po meri.",
     "defaultMessageWithoutCreate": "Sem vaš osebni inteligentni pomočnik {{appName}}. Kako vam lahko danes pomagam?",
     "qa": {
-      "q01": "What is LobeHub?",
-      "q02": "What is {{appName}}?",
-      "q03": "Does {{appName}} have community support?",
-      "q04": "What features does {{appName}} support?",
-      "q05": "How do I deploy and use {{appName}}?",
-      "q06": "What is the pricing for {{appName}}?",
-      "q07": "Is {{appName}} free?",
-      "q08": "Is there a cloud service version available?",
-      "q09": "Does it support local language models?",
-      "q10": "Does it support image recognition and generation?",
-      "q11": "Does it support speech synthesis and speech recognition?",
-      "q12": "Does it support a plugin system?",
-      "q13": "Is there a marketplace to acquire GPTs?",
-      "q14": "Does it support multiple AI service providers?",
-      "q15": "What should I do if I encounter issues while using it?"
+      "q01": "Kaj je LobeHub?",
+      "q02": "Kaj je {{appName}}?",
+      "q03": "Ali ima {{appName}} podporo skupnosti?",
+      "q04": "Katere funkcionalnosti podpira {{appName}}?",
+      "q05": "Kako namestim in uporabim {{appName}}?",
+      "q06": "Kakšne so cene za {{appName}}?",
+      "q07": "Je {{appName}} brezplačen?",
+      "q08": "Ali obstaja različica v oblaku?",
+      "q09": "Ali podpira lokalne jezikovne modele?",
+      "q10": "Ali podpira prepoznavanje in generiranje slik?",
+      "q11": "Ali podpira sintezo govora in prepoznavanje govora?",
+      "q12": "Ali podpira sistem vtičnikov?",
+      "q13": "Ali obstaja tržnica za pridobitev GPT-jev?",
+      "q14": "Ali podpira več dobaviteljev AI storitev?",
+      "q15": "Kaj naj storim, če naletim na težave pri uporabi?"
     },
     "questions": {
-      "moreBtn": "Learn More",
-      "title": "Frequently Asked Questions:"
+      "moreBtn": "Preberite več",
+      "title": "Pogosta vprašanja:"
     },
     "welcome": {
-      "afternoon": "Dober Dan",
-      "morning": "Dobro Jutro",
-      "night": "Dober Večer",
-      "noon": "Dober Dan"
+      "afternoon": "Dober dan",
+      "morning": "Dobro jutro",
+      "night": "Dober večer",
+      "noon": "Dober dan"
     }
   },
-  "header": "Welcome",
-  "pickAgent": "Or choose from the following assistant templates",
-  "skip": "Skip Creation",
+  "header": "Dobrodošli",
+  "pickAgent": "Ali izberite enega od naslednjih predlogov za pomočnika",
+  "skip": "Preskoči ustvarjanje",
   "slogan": {
-    "desc1": "Pioneering the new age of thinking and creating. Built for you, the Super Individual.",
-    "desc2": "Create your first assistant and let's get started~",
-    "title": "Unlock the superpower of your brain"
+    "desc1": "Pionirji nove dobe mišljenja in ustvarjanja. Zgrajeno za vas, Super posameznika.",
+    "desc2": "Ustvarite svojega prvega pomočnika in začnimo~",
+    "title": "Odkleni supermoč svojega uma"
   }
 }

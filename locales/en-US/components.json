@@ -2,7 +2,7 @@
   "DragUpload": {
     "dragDesc": "Tukaj povlecite in spustite datoteke, da naložite več slik.",
     "dragFileDesc": "Tukaj povlecite in spustite slike in datoteke, da naložite več slik in datotek.",
-    "dragFileTitle": "Naloi Datoteke",
+    "dragFileTitle": "Naloži Datoteke",
     "dragTitle": "Naloži Slike"
   },
   "FileManager": {
@@ -50,73 +50,73 @@
   "FileParsingStatus": {
     "chunks": {
       "embeddingStatus": {
-        "empty": "Text chunks have not been fully embedded, which will render the semantic search feature unavailable. To improve search quality, please embedding the text chunks.",
-        "error": "Embedding failed",
-        "errorResult": "Vectorization failed, please check and try again. Error detail:",
-        "processing": "Text chunks are being embedded, please be patient.",
-        "success": "All current text chunks have been embedded"
+        "empty": "Besedilni deli še niso popolnoma vdelani, kar bo onemogočilo funkcionalnost semantičnega iskanja. Da bi izboljšali kakovost iskanja, prosimo, vdelajte besedilne dele.",
+        "error": "Vdelava je spodletela",
+        "errorResult": "Vektorizacija je spodletela, preverite in poskusite znova. Podrobnosti napake:",
+        "processing": "Besedilni deli se vdelujejo, prosimo za potrpljenje.",
+        "success": "Vsi trenutni besedilni deli so bili vdelani"
       },
-      "embeddings": "Embedding",
+      "embeddings": "Vdelava",
       "status": {
-        "error": "Chunking failed",
-        "errorResult": "Chunking failed, please check and try again. Error detail:",
-        "processing": "Chunking",
-        "processingTip": "The server is splitting text chunks; closing the page will not affect the chunking progress."
+        "error": "Trganje je spodletelo",
+        "errorResult": "Trganje je spodletelo, preverite in poskusite znova. Podrobnosti napake:",
+        "processing": "Trganje",
+        "processingTip": "Strežnik deli besedilne dele; zapiranje strani ne bo vplivalo na napredek trganja."
       }
     }
   },
   "GoBack": {
-    "back": "Back"
+    "back": "Nazaj"
   },
   "MaxTokenSlider": {
-    "unlimited": "Unlimited"
+    "unlimited": "Neomejeno"
   },
   "ModelSelect": {
     "featureTag": {
-      "custom": "Custom model, by default, supports both function call and visual recognition. Please verify the availability of the above capabilities based on actual situations.",
-      "file": "This model supports file upload for reading and recognition.",
-      "functionCall": "This model supports function call.",
-      "imageOutput": "This model supports image generation",
-      "reasoning": "This model supports deep thinking",
-      "search": "This model supports online search",
-      "tokens": "This model supports up to {{tokens}} tokens in a single session.",
-      "vision": "This model supports visual recognition."
+      "custom": "Po meri model, ki privzeto podpira tako klice funkcij kot vizualno prepoznavanje. Prosimo, preverite razpoložljivost zgoraj omenjenih funkcionalnosti glede na dejanske situacije.",
+      "file": "Ta model podpira nalaganje datotek za branje in prepoznavanje.",
+      "functionCall": "Ta model podpira klice funkcij.",
+      "imageOutput": "Ta model podpira generiranje slik",
+      "reasoning": "Ta model podpira globoko razmišljanje",
+      "search": "Ta model podpira iskanje po spletu",
+      "tokens": "Ta model podpira do {{tokens}} tokenov v eni seji.",
+      "vision": "Ta model podpira vizualno prepoznavanje."
     },
-    "removed": "The model is not in the list. It will be automatically removed if deselected."
+    "removed": "Model ni na seznamu. Samodejno bo odstranjen, če ni izbran."
   },
   "ModelSwitchPanel": {
-    "emptyModel": "No enabled model. Please go to settings to enable.",
-    "emptyProvider": "No enabled providers. Please go to settings to enable one.",
-    "goToSettings": "Go to settings",
-    "provider": "Provider"
+    "emptyModel": "Ni omogočenega modela. Pojdite v nastavitve, da omogočite enega.",
+    "emptyProvider": "Ni omogočenih ponudnikov. Pojdite v nastavitve, da omogočite enega.",
+    "goToSettings": "Pojdi v nastavitve",
+    "provider": "Ponudnik"
   },
   "OllamaSetupGuide": {
     "cors": {
-      "description": "Due to browser security restrictions, you need to configure cross-origin settings for Ollama to function properly.",
+      "description": "Zaradi varnostnih omejitev v brskalniku morate nastaviti nastavitve za križna dovoljenja, da bo Ollama pravilno delovala.",
       "linux": {
-        "env": "Add `Environment` under the [Service] section, and set the OLLAMA_ORIGINS environment variable:",
-        "reboot": "Reload systemd and restart Ollama",
-        "systemd": "Edit the ollama service using systemd:"
+        "env": "Dodajte `Environment` pod odsekom [Service] in nastavite okoljsko spremenljivko OLLAMA_ORIGINS:",
+        "reboot": "Ponovno zaženite sistemd in ponovno zaženite Ollama",
+        "systemd": "Uredite storitev ollama z uporabo systemd:"
       },
-      "macos": "Please open the 'Terminal' application, paste the following command, and press Enter to run it.",
-      "reboot": "Please restart the Ollama service after the execution is complete.",
-      "title": "Configure Ollama for Cross-Origin Access",
-      "windows": "On Windows, click 'Control Panel' and go to edit system environment variables. Create a new environment variable named 'OLLAMA_ORIGINS' for your user account, with the value set to *, and click 'OK/Apply' to save."
+      "macos": "Odprite aplikacijo 'Terminal', prilepite naslednji ukaz in pritisnite Enter, da ga zaženete.",
+      "reboot": "Po izvedbi ukaza prosimo, ponovno zaženite storitev Ollama.",
+      "title": "Konfigurirajte Ollama za dostop do križnih izvorov",
+      "windows": "Na Windows kliknite 'Nadzorna plošča' in pojdite na urejanje sistemskih okolijskih spremenljivk. Ustvarite novo okoljsko spremenljivko z imenom 'OLLAMA_ORIGINS' za vaš uporabniški račun, z vrednostjo nastavljeno na *, in kliknite 'OK/Uporabi', da shranite."
     },
     "install": {
-      "description": "Please ensure that you have started Ollama. If you haven't downloaded Ollama, please visit the official website to <1>download</1> it.",
-      "docker": "If you prefer to use Docker, Ollama also provides an official Docker image, which you can pull using the following command:",
+      "description": "Prepričajte se, da ste zagnali Ollama. Če še niste prenesli Ollama, obiščite uradno spletno stran, da <1>preneste</1> program.",
+      "docker": "Če raje uporabljate Docker, Ollama nudi uradno sliko Docker, ki jo lahko prenesete z naslednjim ukazom:",
       "linux": {
-        "command": "Install using the following command:",
-        "manual": "Alternatively, you can refer to the <1>Linux Manual Installation Guide</1> for a manual installation."
+        "command": "Namestite z naslednjim ukazom:",
+        "manual": "Lahko se odločite tudi za <1>Navodila za ročno namestitev v Linuxu</1>."
       },
-      "title": "Install and Start the Ollama Application Locally",
-      "windowsTab": "Windows (Preview)"
+      "title": "Namestite in zaženite aplikacijo Ollama lokalno",
+      "windowsTab": "Windows (Predogled)"
     }
   },
   "Thinking": {
-    "thinking": "Deep Thinking...",
-    "thought": "Deeply Thought (in {{duration}} seconds)",
-    "thoughtWithDuration": "Deeply Thought"
+    "thinking": "Globoko razmišljanje...",
+    "thought": "Globoko premišljeno (v {{duration}} sekundah)",
+    "thoughtWithDuration": "Globoko premišljeno"
   }
 }

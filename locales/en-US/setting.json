@@ -1,447 +1,291 @@
 {
   "about": {
-    "title": "About"
+    "title": "O nas"
   },
   "agentTab": {
-    "chat": "Chat Preferences",
-    "meta": "Assistant Info",
-    "modal": "Model Settings",
-    "plugin": "Plugin Settings",
-    "prompt": "Role Configuration",
-    "tts": "Voice Service"
+    "chat": "Nastavitve klepeta",
+    "meta": "Informacije o pomočniku",
+    "modal": "Nastavitve modela",
+    "plugin": "Nastavitve vtičnikov",
+    "prompt": "Nastavitve vloge",
+    "tts": "Storitev govora"
   },
   "analytics": {
     "telemetry": {
-      "desc": "By opting to send telemetry data, you can help us improve the overall user experience of {{appName}}.",
-      "title": "Send Anonymous Usage Data"
+      "desc": "S pošiljanjem podatkov o uporabi lahko pomagate izboljšati splošno uporabniško izkušnjo aplikacije {{appName}}.",
+      "title": "Pošlji anonimne podatke o uporabi"
     },
-    "title": "Analytics"
+    "title": "Analitika"
   },
   "danger": {
     "clear": {
-      "action": "Clear Now",
-      "confirm": "Confirm to clear all chat data?",
-      "desc": "This will clear all session data, including assistant, files, messages, plugins, etc.",
-      "success": "All session messages have been cleared",
-      "title": "Clear All Session Messages"
+      "action": "Počisti zdaj",
+      "confirm": "Potrdite, da želite izbrisati vse podatke o klepetu?",
+      "desc": "To bo izbrisalo vse podatke seje, vključno z asistenti, datotekami, sporočili, vtičniki itd.",
+      "success": "Vsa sporočila seje so bila izbrisana",
+      "title": "Izbriši vsa sporočila seje"
     },
     "reset": {
-      "action": "Reset Now",
-      "confirm": "Confirm to reset all settings?",
-      "currentVersion": "Current Version",
-      "desc": "Reset all settings to default values",
-      "success": "All settings have been reset",
-      "title": "Reset All Settings"
+      "action": "Ponastavi zdaj",
+      "confirm": "Potrdite, da želite ponastaviti vse nastavitve?",
+      "currentVersion": "Trenutna različica",
+      "desc": "Ponastavi vse nastavitve na privzete vrednosti",
+      "success": "Vse nastavitve so bile ponastavljene",
+      "title": "Ponastavi vse nastavitve"
     }
   },
   "header": {
-    "desc": "Preferences and model settings.",
-    "global": "Global Settings",
-    "session": "Session Settings",
-    "sessionDesc": "Role settings and session preferences.",
-    "sessionWithName": "Session Settings · {{name}}",
-    "title": "Settings"
+    "desc": "Nastavitve in nastavitve modela.",
+    "global": "Globalne nastavitve",
+    "session": "Nastavitve seje",
+    "sessionDesc": "Nastavitve vloge in nastavitve seje.",
+    "sessionWithName": "Nastavitve seje · {{name}}",
+    "title": "Nastavitve"
   },
   "llm": {
-    "aesGcm": "Your keys and proxy address will be encrypted using the <1>AES-GCM</1> encryption algorithm",
+    "aesGcm": "Vaši ključi in naslov proxyja bodo šifrirani z uporabo algoritma za šifriranje <1>AES-GCM</1>",
     "apiKey": {
-      "desc": "Please enter your {{name}} API Key",
-      "placeholder": "{{name}} API Key",
-      "title": "API Key"
+      "desc": "Vnesite svoj API ključ za {{name}}",
+      "placeholder": "{{name}} API ključ",
+      "title": "API ključ"
     },
     "checker": {
-      "button": "Check",
-      "desc": "Test if the API Key and proxy address are filled in correctly",
-      "pass": "Check Passed",
-      "title": "Connectivity Check"
+      "button": "Preveri",
+      "desc": "Preizkusite, ali sta API ključ in naslov proxyja pravilno vnesena",
+      "pass": "Preverjanje uspešno",
+      "title": "Preverjanje povezljivosti"
     },
     "customModelCards": {
-      "addNew": "Create and add {{id}} model",
-      "config": "Model Configuration",
-      "confirmDelete": "You are about to delete this custom model. Once deleted, it cannot be recovered. Please proceed with caution.",
+      "addNew": "Ustvarite in dodajte {{id}} model",
+      "config": "Nastavitve modela",
+      "confirmDelete": "Izbrisali boste ta prilagojen model. Ko je izbrisan, ga ni mogoče obnoviti. Prosimo, nadaljujte previdno.",
       "modelConfig": {
         "azureDeployName": {
-          "extra": "The field actually requested in Azure OpenAI",
-          "placeholder": "Enter the model deployment name in Azure",
-          "title": "Model Deployment Name"
+          "extra": "Polje, ki ga zahteva Azure OpenAI",
+          "placeholder": "Vnesite ime modela v Azure",
+          "title": "Ime modela v Azure"
         },
         "displayName": {
-          "placeholder": "Enter the display name of the model, such as ChatGPT, GPT-4, etc.",
-          "title": "Model Display Name"
+          "placeholder": "Vnesite prikazno ime modela, kot so ChatGPT, GPT-4 itd.",
+          "title": "Prikazno ime modela"
         },
         "files": {
-          "extra": "The current file upload implementation is merely a hack solution and is intended for personal experimentation only. Please wait for a complete file upload capability in future updates.",
-          "title": "Support File Upload"
+          "extra": "Trenutna implementacija nalaganja datotek je le začasna rešitev in je namenjena osebnemu eksperimentiranju. Prosimo, počakajte na popolno zmogljivost nalaganja datotek v prihodnjih posodobitvah.",
+          "title": "Podpora za nalaganje datotek"
         },
         "functionCall": {
-          "extra": "This configuration will only enable function calling capabilities within the application. Whether function calling is supported depends entirely on the model itself; please test the model's function calling capabilities on your own.",
-          "title": "Support Function Call"
+          "extra": "Ta konfiguracija omogoča samo klic funkcij znotraj aplikacije. Ali klic funkcij podpira model, je odvisno od samega modela; prosimo, preizkusite zmogljivosti klicanja funkcij modela sami.",
+          "title": "Podpora za klic funkcij"
         },
         "id": {
-          "extra": "Will be displayed as the model label",
-          "placeholder": "Enter the model ID, such as gpt-4-turbo-preview or claude-2.1",
-          "title": "Model ID"
+          "extra": "Prikazan bo kot oznaka modela",
+          "placeholder": "Vnesite ID modela, kot je gpt-4-turbo-preview ali claude-2.1",
+          "title": "ID modela"
         },
-        "modalTitle": "Custom Model Configuration",
+        "modalTitle": "Konfiguracija prilagojenega modela",
         "tokens": {
-          "title": "Maximum Token Count"
+          "title": "Maksimalno število žetonov"
         },
         "vision": {
-          "extra": "This configuration will only enable image upload capabilities within the application. Whether recognition is supported depends entirely on the model itself; please test the model's visual recognition capabilities on your own.",
-          "title": "Support Visual Recognition"
+          "extra": "Ta konfiguracija omogoča le nalaganje slik znotraj aplikacije. Ali model podpira prepoznavanje slik, je popolnoma odvisno od samega modela; prosimo, preizkusite zmogljivosti prepoznavanja slik modela sami.",
+          "title": "Podpora za vizualno prepoznavanje"
         }
       }
     },
     "fetchOnClient": {
-      "desc": "Client-side fetching mode initiates session requests directly from the browser, improving response speed.",
-      "title": "Use Client-Side Fetching Mode"
+      "desc": "Način iskanja na strani odjemalca začne zahteve seje neposredno iz brskalnika, kar izboljša hitrost odziva.",
+      "title": "Uporabi način iskanja na strani odjemalca"
     },
     "fetcher": {
-      "clear": "Clear fetched model",
-      "fetch": "Get Model List",
-      "fetching": "Fetching Model List...",
-      "latestTime": "Last Updated: {{time}}",
-      "noLatestTime": "No list available yet"
+      "clear": "Počisti iskan model",
+      "fetch": "Pridobi seznam modelov",
+      "fetching": "Iskanje seznama modelov...",
+      "latestTime": "Zadnja posodobitev: {{time}}",
+      "noLatestTime": "Seznam še ni na voljo"
     },
-    "helpDoc": "Configuration Guide",
+    "helpDoc": "Pomočnik za konfiguracijo",
     "modelList": {
-      "desc": "Select the models to display in the session. The selected models will be displayed in the model list.",
-      "placeholder": "Please select a model from the list",
-      "title": "Model List",
-      "total": "{{count}} models available in total"
+      "desc": "Izberite modele, ki jih želite prikazati v seji. Izbrani modeli bodo prikazani na seznamu modelov.",
+      "placeholder": "Izberite model s seznama",
+      "title": "Seznam modelov",
+      "total": "Skupaj {{count}} modelov na voljo"
     },
     "proxyUrl": {
-      "desc": "Must include http(s):// in addition to the default address",
-      "title": "API Proxy Address"
+      "desc": "Mora vključevati http(s):// poleg privzetega naslova",
+      "title": "Naslov API proxyja"
     },
-    "waitingForMore": "More models are <1>planned to be added</1>, stay tuned"
+    "waitingForMore": "Več modelov je <1>načrtovanih za dodajanje</1>, bodite pozorni"
   },
   "plugin": {
-    "addTooltip": "Custom Plugin",
-    "clearDeprecated": "Remove Deprecated Plugins",
-    "empty": "No installed plugins yet, feel free to explore the <1>Plugin Store</1>",
+    "addTooltip": "Prilagojen vtičnik",
+    "clearDeprecated": "Odstrani zastarele vtičnike",
+    "empty": "Še ni nameščenih vtičnikov, raziskujte <1>Trgovino z vtičniki</1>",
     "installStatus": {
-      "deprecated": "Uninstalled"
+      "deprecated": "Ne nameščen"
     },
     "settings": {
-      "hint": "Please fill in the following configurations based on the description",
-      "title": "{{id}} Plugin Configuration",
-      "tooltip": "Plugin Configuration"
+      "hint": "Prosimo, izpolnite naslednje nastavitve na podlagi opisa",
+      "title": "Konfiguracija vtičnika {{id}}",
+      "tooltip": "Konfiguracija vtičnika"
     },
-    "store": "Plugin Store"
+    "store": "Trgovina z vtičniki"
   },
   "settingAgent": {
     "avatar": {
       "title": "Avatar"
     },
     "backgroundColor": {
-      "title": "Background Color"
+      "title": "Barva ozadja"
     },
     "description": {
-      "placeholder": "Enter assistant description",
-      "title": "Assistant Description"
+      "placeholder": "Vnesite opis asistenta",
+      "title": "Opis asistenta"
     },
     "name": {
-      "placeholder": "Enter assistant name",
-      "title": "Name"
+      "placeholder": "Vnesite ime asistenta",
+      "title": "Ime"
     },
     "prompt": {
-      "placeholder": "Enter role prompt word",
-      "title": "Role Setting"
+      "placeholder": "Vnesite besedilo vloge",
+      "title": "Nastavitev vloge"
     },
     "tag": {
-      "placeholder": "Enter tag",
-      "title": "Tag"
+      "placeholder": "Vnesite oznako",
+      "title": "Oznaka"
     },
-    "title": "Assistant Information"
+    "title": "Informacije o pomočniku"
   },
   "settingChat": {
     "autoCreateTopicThreshold": {
-      "desc": "Automatically create a topic when the current message count exceeds this value",
-      "title": "Message Threshold"
+      "desc": "Samodejno ustvarite temo, ko število trenutnih sporočil preseže to vrednost",
+      "title": "Prag za sporočila"
     },
     "chatStyleType": {
-      "title": "Chat Window Style",
+      "title": "Slog okna klepeta",
       "type": {
-        "chat": "Conversation Mode",
-        "docs": "Document Mode"
+        "chat": "Način klepeta",
+        "docs": "Način dokumenta"
       }
     },
     "compressThreshold": {
-      "desc": "When the uncompressed history messages exceed this value, compression will be applied",
-      "title": "History Message Length Compression Threshold"
+      "desc": "Ko nekomprimirana zgodovina sporočil preseže to vrednost, se uporabi kompresija",
+      "title": "Prag dolžine zgodovine sporočil za kompresijo"
     },
     "enableAutoCreateTopic": {
-      "desc": "Whether to automatically create a topic during the conversation, only effective in temporary topics",
-      "title": "Auto Create Topic"
+      "desc": "Ali naj se med klepetom samodejno ustvari tema, učinkovito le v začasnih temah",
+      "title": "Samodejno ustvarjanje teme"
     },
     "enableCompressHistory": {
-      "title": "Enable Automatic Summary of Chat History"
+      "title": "Omogoči samodejno povzetje zgodovine klepeta"
     },
     "enableHistoryCount": {
-      "alias": "Unlimited",
-      "limited": "Include only {{number}} conversation messages",
-      "setlimited": "Set limited history messages",
-      "title": "Limit History Message Count",
-      "unlimited": "Unlimited history message count"
+      "alias": "Neomejeno",
+      "limited": "Vključi le {{number}} sporočil iz preteklosti",
+      "setlimited": "Nastavite omejeno število sporočil",
+      "title": "Omejitev števila sporočil v zgodovini",
+      "unlimited": "Neomejeno število sporočil v zgodovini"
     },
     "historyCount": {
-      "desc": "Number of historical messages carried with each request",
-      "title": "Attached History Message Count"
+      "desc": "Število zgodovinskih sporočil, ki jih prenašamo s posamezno zahtevo",
+      "title": "Število zgodovinskih sporočil"
     },
     "inputTemplate": {
-      "desc": "The user's latest message will be filled into this template",
-      "placeholder": "Preprocessing template {{text}} will be replaced with real-time input information",
-      "title": "User Input Preprocessing"
+      "desc": "Najnovejše sporočilo uporabnika bo vstavljeno v to predlogo",
+      "placeholder": "Predloga za obdelavo {{text}} bo zamenjana z dejanskimi informacijami v realnem času",
+      "title": "Predobdelava vnosa uporabnika"
     },
-    "title": "Chat Settings"
+    "title": "Nastavitve klepeta"
   },
   "settingModel": {
     "enableMaxTokens": {
-      "title": "Enable Max Tokens Limit"
+      "title": "Omogoči omejitev največjih žetonov"
     },
     "enableReasoningEffort": {
-      "title": "Enable Reasoning Effort Adjustment"
+      "title": "Omogoči prilagoditev napora pri razmišljanju"
     },
     "frequencyPenalty": {
-      "desc": "The higher the value, the more diverse and rich the vocabulary; the lower the value, the simpler and more straightforward the language.",
-      "title": "Vocabulary Richness"
+      "desc": "Višja vrednost pomeni bolj raznoliko in bogato besedišče, nižja vrednost pa preprostejši in neposrednejši jezik.",
+      "title": "Bogastvo besedišča"
     },
     "maxTokens": {
-      "desc": "The maximum number of tokens used for each interaction",
-      "title": "Max Tokens Limit"
+      "desc": "Največje število žetonov, uporabljenih pri vsakem interakciji",
+      "title": "Omejitev žetonov"
     },
     "model": {
-      "desc": "{{provider}} model",
+      "desc": "Model {{provider}}",
       "title": "Model"
     },
     "params": {
-      "title": "Advanced Parameters"
+      "title": "Napredne nastavitve"
     },
     "presencePenalty": {
-      "desc": "The higher the value, the more inclined to use different expressions and avoid concept repetition; the lower the value, the more inclined to use repeated concepts or narratives, resulting in more consistent expression.",
-      "title": "Expression Divergence"
+      "desc": "Višja vrednost pomeni večjo nagnjenost k uporabi različnih izrazov in izogibanju ponovitvam, nižja vrednost pa večjo nagnjenost k ponavljanju konceptov ali pripovedovanju, kar vodi v bolj dosledne izraze.",
+      "title": "Raznovrstnost izrazov"
     },
     "reasoningEffort": {
-      "desc": "The higher the value, the stronger the reasoning ability, but it may increase response time and token consumption.",
+      "desc": "Višja vrednost pomeni močnejšo sposobnost razmišljanja, vendar lahko poveča čas odziva in porabo žetonov.",
       "options": {
-        "high": "High",
-        "low": "Low",
-        "medium": "Medium"
+        "high": "Visoko",
+        "low": "Nizko",
+        "medium": "Srednje"
       },
-      "title": "Reasoning Effort"
+      "title": "Napori pri razmišljanju"
     },
     "temperature": {
-      "desc": "The higher the value, the more creative and imaginative the responses; the lower the value, the more rigorous the responses.",
-      "title": "Creativity Level",
-      "warning": "If the creativity level is set too high, the output may become garbled."
+      "desc": "Višja vrednost pomeni bolj kreativne in domiselne odgovore, nižja vrednost pa bolj stroge odgovore.",
+      "title": "Raven kreativnosti",
+      "warning": "Če je raven kreativnosti nastavljena previsoko, lahko izhod postane zmeden."
     },
-    "title": "Model Settings",
+    "title": "Nastavitve modela",
     "topP": {
-      "desc": "How many possibilities to consider; a higher value accepts more potential answers, while a lower value tends to choose the most likely answer. It is not recommended to change this alongside the creativity level.",
-      "title": "Openness to Ideas"
+      "desc": "Koliko možnosti upoštevati; višja vrednost sprejema več možnih odgovorov, medtem ko nižja vrednost izbere najbolj verjeten odgovor. Ne priporočamo spreminjanja tega skupaj z raven kreativnosti.",
+      "title": "Odprtost za ideje"
     }
   },
   "settingPlugin": {
-    "title": "Plugin List"
+    "title": "Seznam vtičnikov"
   },
   "settingSystem": {
     "accessCode": {
-      "desc": "Encryption access is enabled by the administrator",
-      "placeholder": "Enter access password",
-      "title": "Access Password"
+      "desc": "Dostop je omogočen s šifriranjem, ki ga je omogočil skrbnik",
+      "placeholder": "Vnesite geslo za dostop",
+      "title": "Geslo za dostop"
     },
     "oauth": {
       "info": {
-        "desc": "Logged in",
-        "title": "Account Information"
+        "desc": "Prijavljen",
+        "title": "Informacije o računu"
       },
       "signin": {
-        "action": "Sign In",
-        "desc": "Sign in using SSO to unlock the app",
-        "title": "Sign In to Your Account"
+        "action": "Prijavite se",
+        "desc": "Prijavite se z uporabo SSO za odklenitev aplikacije",
+        "title": "Prijavite se v svoj račun"
       },
       "signout": {
-        "action": "Sign Out",
-        "confirm": "Confirm sign out?",
-        "success": "Sign out successful"
+        "action": "Odjava",
+        "confirm": "Ste prepričani, da želite izstopiti?",
+        "success": "Odjava je bila uspešna"
       }
     },
-    "title": "System Settings"
+    "title": "Nastavitve sistema"
   },
   "settingTTS": {
     "openai": {
-      "sttModel": "OpenAI Speech-to-Text Model",
+      "sttModel": "OpenAI model za prepoznavanje govora",
       "title": "OpenAI",
-      "ttsModel": "OpenAI Text-to-Speech Model"
+      "ttsModel": "OpenAI model za pretvorbo besedila v govor"
     },
     "showAllLocaleVoice": {
-      "desc": "If closed, only voices in the current language will be displayed",
-      "title": "Show All Locale Voices"
+      "desc": "Če je izklopljeno, bodo prikazane samo glasove v trenutnem jeziku",
+      "title": "Pokaži vse glasove za jezik"
     },
-    "stt": "Speech Recognition Settings",
-    "sttAutoStop": {
-      "desc": "When closed, speech recognition will not end automatically and requires manual click to stop",
-      "title": "Auto Stop Speech Recognition"
-    },
-    "sttLocale": {
-      "desc": "The language of the speech input, this option can improve the accuracy of speech recognition",
-      "title": "Speech Recognition Language"
-    },
-    "sttService": {
-      "desc": "Where 'browser' is the native speech recognition service of the browser",
-      "title": "Speech Recognition Service"
-    },
-    "title": "Speech Service",
-    "tts": "Text-to-Speech Settings",
-    "ttsService": {
-      "desc": "If using OpenAI text-to-speech service, make sure the OpenAI model service is enabled",
-      "title": "Text-to-Speech Service"
-    },
-    "voice": {
-      "desc": "Select a voice for the current assistant, different TTS services support different voices",
-      "preview": "Voice Preview",
-      "title": "Text-to-Speech Voice"
-    }
+    "stt": "Nastavitve za prepoznavanje govora",
+    "title": "Nastavitve za prepoznavanje govora in pretvorbo besedila v govor",
+    "tts": "Nastavitve za pretvorbo besedila v govor"
   },
-  "settingTheme": {
-    "avatar": {
-      "title": "Avatar"
-    },
-    "fontSize": {
-      "desc": "Font size for chat content",
-      "marks": {
-        "normal": "Normal"
-      },
-      "title": "Font Size"
-    },
-    "lang": {
-      "autoMode": "Follow System",
-      "title": "Language"
-    },
-    "neutralColor": {
-      "desc": "Custom neutral color for different color tendencies",
-      "title": "Neutral Color"
-    },
-    "primaryColor": {
-      "desc": "Custom primary theme color",
-      "title": "Primary Color"
-    },
-    "themeMode": {
-      "auto": "Auto",
-      "dark": "Dark",
-      "light": "Light",
-      "title": "Theme"
-    },
-    "title": "Theme Settings"
-  },
-  "submitAgentModal": {
-    "button": "Submit Assistant",
-    "identifier": "Assistant Identifier",
-    "metaMiss": "Please complete the assistant information before submitting. It should include name, description, and tags",
-    "placeholder": "Enter a unique identifier for the assistant, e.g. web-development",
-    "tooltips": "Share to the assistant marketplace"
-  },
-  "sync": {
-    "device": {
-      "deviceName": {
-        "hint": "Add a name for easy identification",
-        "placeholder": "Enter device name",
-        "title": "Device Name"
-      },
-      "title": "Device Information",
-      "unknownBrowser": "Unknown Browser",
-      "unknownOS": "Unknown OS"
-    },
-    "warning": {
-      "tip": "After a long period of community testing, WebRTC synchronization may not reliably meet general data synchronization needs. Please <1>deploy a signaling server</1> before use."
-    },
-    "webrtc": {
-      "channelName": {
-        "desc": "WebRTC will use this name to create a sync channel. Ensure the channel name is unique.",
-        "placeholder": "Enter sync channel name",
-        "shuffle": "Generate Randomly",
-        "title": "Sync Channel Name"
-      },
-      "channelPassword": {
-        "desc": "Add a password to ensure channel privacy. Only devices with the correct password can join the channel.",
-        "placeholder": "Enter sync channel password",
-        "title": "Sync Channel Password"
-      },
-      "desc": "Real-time, peer-to-peer data communication requires all devices to be online for synchronization.",
-      "enabled": {
-        "invalid": "Please fill in the signaling server and synchronization channel name before enabling.",
-        "title": "Enable Sync"
-      },
-      "signaling": {
-        "desc": "WebRTC will use this address for synchronization",
-        "placeholder": "Enter signaling server address",
-        "title": "Signaling Server"
-      },
-      "title": "WebRTC Sync"
-    }
-  },
-  "systemAgent": {
-    "agentMeta": {
-      "label": "Assistant Metadata Generation Model",
-      "modelDesc": "Model designated for generating assistant name, description, avatar, and tags",
-      "title": "Automatically Generate Assistant Information"
-    },
-    "customPrompt": {
-      "addPrompt": "Add Custom Prompt",
-      "desc": "Once filled out, the system assistant will use the custom prompt when generating content",
-      "placeholder": "Please enter custom prompt",
-      "title": "Custom Prompt"
-    },
-    "historyCompress": {
-      "label": "Conversation History Model",
-      "modelDesc": "Specify the model used to compress conversation history",
-      "title": "Automatically Summarize Conversation History"
-    },
-    "queryRewrite": {
-      "label": "Question Rewriting Model",
-      "modelDesc": "Specify the model used to optimize user inquiries",
-      "title": "Knowledge Base Question Rewrite"
-    },
-    "thread": {
-      "label": "Subtopic Naming Model",
-      "modelDesc": "The model designated for automatic renaming of subtopics",
-      "title": "Automatic Subtopic Naming"
-    },
-    "title": "System Assistants",
-    "topic": {
-      "label": "Topic Naming Model",
-      "modelDesc": "Model designated for automatic topic renaming",
-      "title": "Automatic Topic Naming"
-    },
-    "translation": {
-      "label": "Translation Assistant",
-      "modelDesc": "Specific model for translate message",
-      "title": "Translation Settings"
-    }
-  },
-  "tab": {
-    "about": "About",
-    "agent": "Default Assistant",
-    "common": "Osnovne Nastavitve",
-    "experiment": "Experiment",
-    "llm": "Language Model",
-    "provider": "AI Service Provider",
-    "sync": "Cloud Sync",
-    "system-agent": "System Assistant",
-    "tts": "Text-to-Speech"
-  },
-  "tools": {
-    "builtins": {
-      "groupName": "Built-ins"
-    },
-    "disabled": "The current model does not support function calls and cannot use the plugin",
-    "plugins": {
-      "enabled": "Enabled: {{num}}",
-      "groupName": "Plugins",
-      "noEnabled": "No plugins enabled",
-      "store": "Plugin Store"
-    },
-    "title": "Extension Tools"
+  "testing": {
+    "currentModel": "Trenutni model",
+    "stopGeneration": "Ustavite ustvarjanje",
+    "title": "Testiranje"
   }
 }

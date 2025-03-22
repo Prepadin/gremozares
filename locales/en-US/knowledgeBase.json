@@ -1,32 +1,32 @@
 {
   "addToKnowledgeBase": {
-    "addSuccess": "File added successfully, <1>view now</1>",
-    "confirm": "Add",
+    "addSuccess": "Datoteka je bila uspešno dodana, <1>ogledate si jo zdaj</1>",
+    "confirm": "Dodaj",
     "id": {
-      "placeholder": "Please select a knowledge base to add",
-      "required": "Please select a knowledge base",
-      "title": "Target Knowledge Base"
+      "placeholder": "Izberite zbirko znanja za dodajanje",
+      "required": "Izberite zbirko znanja",
+      "title": "Ciljna zbirka znanja"
     },
-    "title": "Add to Knowledge Base",
-    "totalFiles": "{{count}} files selected"
+    "title": "Dodaj v zbirko znanja",
+    "totalFiles": "{{count}} datoteke izbrane"
   },
   "createNew": {
-    "confirm": "Create New",
+    "confirm": "Ustvari novo",
     "description": {
-      "placeholder": "Knowledge base description (optional)"
+      "placeholder": "Opis zbirke znanja (neobvezno)"
     },
-    "formTitle": "Basic Information",
+    "formTitle": "Osnovne informacije",
     "name": {
-      "placeholder": "Knowledge base name",
-      "required": "Please enter the knowledge base name"
+      "placeholder": "Ime zbirke znanja",
+      "required": "Vnesite ime zbirke znanja"
     },
-    "title": "Create Knowledge Base"
+    "title": "Ustvari zbirko znanja"
   },
   "tab": {
-    "evals": "Evaluations",
-    "files": "Documents",
-    "settings": "Settings",
-    "testing": "Recall Testing"
+    "evals": "Ocene",
+    "files": "Dokumenti",
+    "settings": "Nastavitve",
+    "testing": "Preizkus priklica"
   },
-  "title": "Knowledge Base"
+  "title": "Baza znanja"
 }

@@ -1,30 +1,30 @@
 {
-  "Artifacts": "Artifacts",
+  "Artifacts": "Artefakti",
   "FilePreview": {
     "tabs": {
-      "chunk": "Chunk",
-      "file": "File"
+      "chunk": "Kos",
+      "file": "Datoteka"
     }
   },
-  "Plugins": "Plugins",
+  "Plugins": "Vtičniki",
   "artifacts": {
     "display": {
-      "code": "Code",
-      "preview": "Preview"
+      "code": "Koda",
+      "preview": "Predogled"
     },
     "svg": {
-      "copyAsImage": "Copy as Image",
-      "copyFail": "Copy failed, reason: {{error}}",
-      "copySuccess": "Image copied successfully",
+      "copyAsImage": "Kopiraj kot sliko",
+      "copyFail": "Kopiranje ni uspelo, razlog: {{error}}",
+      "copySuccess": "Slika je bila uspešno kopirana",
       "download": {
-        "png": "Download as PNG",
-        "svg": "Download as SVG"
+        "png": "Prenesi kot PNG",
+        "svg": "Prenesi kot SVG"
       }
     }
   },
-  "emptyArtifactList": "The current Artifacts list is empty. Please use plugins in the session as needed before viewing.",
-  "emptyKnowledgeList": "The current knowledge list is empty. Please enable the knowledge base as needed during the conversation before viewing.",
-  "files": "Files",
-  "messageDetail": "Message Details",
-  "title": "Portal View"
+  "emptyArtifactList": "Trenutni seznam artefaktov je prazen. Pred ogledom uporabite vtičnike v seji po potrebi.",
+  "emptyKnowledgeList": "Trenutni seznam znanja je prazen. Pred ogledom omogočite bazo znanja po potrebi med pogovorom.",
+  "files": "Datoteke",
+  "messageDetail": "Podrobnosti sporočila",
+  "title": "Pogled na portal"
 }

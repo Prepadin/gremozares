@@ -1,10 +1,10 @@
 {
   "actions": {
-    "confirmRemoveThread": "You are about to delete this subtopic. Once deleted, it cannot be recovered. Please proceed with caution."
+    "confirmRemoveThread": "Izbrisali boste to podtemo. Ko je izbrisana, je ni mogoče obnoviti. Prosimo, nadaljujte previdno."
   },
   "newPortalThread": {
-    "includeContext": "Include topic context",
-    "title": "Start a new subtopic"
+    "includeContext": "Vključi kontekst teme",
+    "title": "Začni novo podtemo"
   },
-  "notSupportMultiModals": "Subtopics do not currently support file/image uploads. If you have any requests, feel free to leave a message: <1>💬 Discussion Area</1>"
+  "notSupportMultiModals": "Podteme trenutno ne podpirajo nalaganja datotek/slik. Če imate kakršne koli zahteve, pustite sporočilo v: <1>💬 Pogovorno območje</1>"
 }

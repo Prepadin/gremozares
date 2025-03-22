@@ -2,93 +2,93 @@
   "desc": "Upravljajte datoteke in bazo znanja",
   "detail": {
     "basic": {
-      "createdAt": "Creation Time",
-      "filename": "Ime Datoteke",
-      "size": "File Size",
-      "title": "Basic Information",
+      "createdAt": "Čas ustvarjanja",
+      "filename": "Ime datoteke",
+      "size": "Velikost datoteke",
+      "title": "Osnovne informacije",
       "type": "Format",
-      "updatedAt": "Update Time"
+      "updatedAt": "Čas posodobitve"
     },
     "data": {
-      "chunkCount": "Chunks",
+      "chunkCount": "Kosi",
       "embedding": {
-        "default": "Not embedding",
-        "error": "Failed",
-        "pending": "Pending start",
-        "processing": "In progress",
-        "success": "Completed"
+        "default": "Niso vdelani",
+        "error": "Spodletelo",
+        "pending": "Čaka na začetek",
+        "processing": "V obdelavi",
+        "success": "Dokončano"
       },
-      "embeddingStatus": "embedding"
+      "embeddingStatus": "Vdelava"
     }
   },
-  "empty": "No files or folders have been uploaded yet.",
+  "empty": "Še ni bilo naloženih datotek ali map.",
   "header": {
     "actions": {
-      "newFolder": "New Folder",
-      "uploadFile": "Naloži Datoteko",
-      "uploadFolder": "Naloži Mapo"
+      "newFolder": "Nova mapa",
+      "uploadFile": "Naloži datoteko",
+      "uploadFolder": "Naloži mapo"
     },
     "uploadButton": "Naloži"
   },
   "knowledgeBase": {
     "list": {
-      "confirmRemoveKnowledgeBase": "Izbrisali boste to bazo znanja. Datoteke znotraj ne bodo izbrisane in bodo premaknjene v Vse datoteke. Po izbrisu baze znanja ni več mogoče obnoviti. Prosimo, nadaljujte previdno.",
-      "empty": "Pritisnite <1>+</1> dodajo bazo znanja"
+      "confirmRemoveKnowledgeBase": "Izbrisali boste to bazo znanja. Datoteke znotraj ne bodo izbrisane in bodo premaknjene v Vse datoteke. Po izbrisu baze znanja je ni več mogoče obnoviti. Prosimo, nadaljujte previdno.",
+      "empty": "Pritisnite <1>+</1> za dodajanje baze znanja"
     },
-    "new": "Nova Baza Znanja",
-    "title": "Baza Znanja"
+    "new": "Nova baza znanja",
+    "title": "Baza znanja"
   },
   "networkError": "Baze znanja ni bilo mogoče pridobiti. Preverite omrežno povezavo in poskusite znova.",
   "notSupportGuide": {
-    "desc": "Trenutni primerek razmestitve je v načinu baze podatkov odjemalca in funkcije za upravljanje datotek niso na voljo. Please switch to <1>server database deployment mode</1>, or use <3>LobeChat Cloud</3> directly.",
+    "desc": "Trenutni primerek razmestitve je v načinu baze podatkov odjemalca in funkcije za upravljanje datotek niso na voljo. Prosimo, preklopite na <1>način razmestitve strežniške baze podatkov</1>, ali pa uporabite <3>LobeChat Cloud</3> neposredno.",
     "features": {
       "allKind": {
-        "desc": "Supports mainstream file types, including common document formats like Word, PPT, Excel, PDF, TXT, as well as popular code files like JS and Python.",
-        "title": "Multiple File Type Parsing"
+        "desc": "Podpira glavne vrste datotek, vključno z običajnimi dokumentnimi formati, kot so Word, PPT, Excel, PDF, TXT, pa tudi priljubljene kode datotek, kot so JS in Python.",
+        "title": "Razčlenjevanje več vrst datotek"
       },
       "embeddings": {
-        "desc": "Utilizes high-performance vector models to vectorize text chunks, enabling semantic search of file content.",
-        "title": "Vector Semantics"
+        "desc": "Uporablja visoko zmogljive vektorske modele za vektorizacijo besedilnih delov, kar omogoča semantično iskanje vsebine datotek.",
+        "title": "Vektorska semantika"
       },
       "repos": {
-        "desc": "Supports the creation of knowledge bases and allows the addition of different types of files, building your domain knowledge.",
-        "title": "Knowledge Base"
+        "desc": "Podpira ustvarjanje baz znanja in omogoča dodajanje različnih vrst datotek, s čimer gradi vaša domena znanja.",
+        "title": "Baza znanja"
       }
     },
-    "title": "The current deployment mode does not support file management"
+    "title": "Trenutni način razmestitve ne podpira upravljanja z datotekami"
   },
   "preview": {
-    "downloadFile": "Download File",
-    "unsupportedFileAndContact": "This file format is not currently supported for online preview. If you have a request for previewing, feel free to <1>contact us</1>."
+    "downloadFile": "Prenesite datoteko",
+    "unsupportedFileAndContact": "Ta format datoteke trenutno ni podprt za spletni predogled. Če imate zahtevo za predogled, nas prosimo <1>kontaktirajte</1>."
   },
   "searchFilePlaceholder": "Išči datoteke",
   "tab": {
     "all": "Vse datoteke",
     "audios": "Zvok",
-    "documents": "Datoteke",
+    "documents": "Dokumenti",
     "images": "Slike",
-    "videos": "Posnetki",
-    "websites": "Spletne Strani"
+    "videos": "Video posnetki",
+    "websites": "Spletne strani"
   },
   "title": "Datoteke",
   "uploadDock": {
     "body": {
-      "collapse": "Collapse",
+      "collapse": "Zruši",
       "item": {
-        "done": "Uploaded",
-        "error": "Upload failed, please try again",
-        "pending": "Preparing to upload...",
-        "processing": "Processing file...",
-        "restTime": "Remaining {{time}}"
+        "done": "Naloženo",
+        "error": "Nalaganje ni uspelo, poskusite znova",
+        "pending": "Priprava na nalaganje...",
+        "processing": "Obdelava datoteke...",
+        "restTime": "Preostali čas {{time}}"
       }
     },
-    "totalCount": "Total {{count}} items",
+    "totalCount": "Skupaj {{count}} predmetov",
     "uploadStatus": {
-      "error": "Upload error",
-      "pending": "Waiting to upload",
-      "processing": "Uploading",
-      "success": "Upload completed",
-      "uploading": "Uploading"
+      "error": "Napaka pri nalaganju",
+      "pending": "Čaka na nalaganje",
+      "processing": "Nalaganje",
+      "success": "Nalaganje dokončano",
+      "uploading": "Nalaganje"
     }
   }
 }

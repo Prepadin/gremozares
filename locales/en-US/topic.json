@@ -1,38 +1,38 @@
 {
   "actions": {
-    "autoRename": "Smart Rename",
-    "confirmRemoveAll": "You are about to delete all topics. This action cannot be undone, please proceed with caution.",
-    "confirmRemoveTopic": "You are about to delete this topic. This action cannot be undone, please proceed with caution.",
-    "confirmRemoveUnstarred": "You are about to delete unstarred topics. This action cannot be undone, please proceed with caution.",
-    "duplicate": "Create Copy",
-    "export": "Export Topics",
-    "removeAll": "Delete All Topics",
-    "removeUnstarred": "Delete Unstarred Topics"
+    "autoRename": "Pametno preimenovanje",
+    "confirmRemoveAll": "Izbrišete vse teme. Tej akciji ni mogoče vrniti, prosimo, nadaljujte previdno.",
+    "confirmRemoveTopic": "Izbrišete to temo. Tej akciji ni mogoče vrniti, prosimo, nadaljujte previdno.",
+    "confirmRemoveUnstarred": "Izbrišete teme, ki niso označene z zvezdico. Tej akciji ni mogoče vrniti, prosimo, nadaljujte previdno.",
+    "duplicate": "Ustvari kopijo",
+    "export": "Izvozi teme",
+    "removeAll": "Izbriši vse teme",
+    "removeUnstarred": "Izbriši teme brez zvezdice"
   },
-  "defaultTitle": "Default Topic",
-  "duplicateLoading": "Copying Topic...",
-  "duplicateSuccess": "Topic Copied Successfully",
-  "favorite": "Favorite",
+  "defaultTitle": "Privzeta tema",
+  "duplicateLoading": "Kopiram temo...",
+  "duplicateSuccess": "Tema uspešno kopirana",
+  "favorite": "Najljubše",
   "groupMode": {
-    "ascMessages": "Sort by Total Messages Ascending",
-    "byTime": "Group by Time",
-    "descMessages": "Sort by Total Messages Descending",
-    "flat": "No Grouping"
+    "ascMessages": "Razvrsti po skupnem številu sporočil naraščajoče",
+    "byTime": "Razvrsti po času",
+    "descMessages": "Razvrsti po skupnem številu sporočil padajoče",
+    "flat": "Brez skupin"
   },
   "groupTitle": {
     "byTime": {
-      "month": "This Month",
-      "today": "Today",
-      "week": "This Week",
-      "yesterday": "Yesterday"
+      "month": "Ta mesec",
+      "today": "Danes",
+      "week": "Ta teden",
+      "yesterday": "Včeraj"
     }
   },
   "guide": {
-    "desc": "Click the button on the left to save the current conversation as a historical topic and start a new conversation.",
-    "title": "Topic List"
+    "desc": "Kliknite gumb na levi, da shranite trenutni pogovor kot zgodovinsko temo in začnete nov pogovor.",
+    "title": "Seznam tem"
   },
-  "searchPlaceholder": "Search Topics...",
-  "searchResultEmpty": "No search results found.",
-  "temp": "Temporary",
-  "title": "Topic"
+  "searchPlaceholder": "Iskanje tem...",
+  "searchResultEmpty": "Ni bilo najdenih rezultatov iskanja.",
+  "temp": "Začasno",
+  "title": "Tema"
 }

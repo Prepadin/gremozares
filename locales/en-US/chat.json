@@ -2,242 +2,242 @@
   "ModelSwitch": {
     "title": "Model"
   },
-  "agentDefaultMessage": "Hello, I am **{{name}}**. You can start a conversation with me right away, or you can go to [Assistant Settings]({{url}}) to complete my information.",
-  "agentDefaultMessageWithSystemRole": "Hello, I'm **{{name}}**, {{systemRole}}. Let's start chatting!",
-  "agentDefaultMessageWithoutEdit": "Hello, I'm **{{name}}**, let's start chatting!",
-  "agents": "Assistants",
+  "agentDefaultMessage": "Pozdravljeni, sem **{{name}}**. Lahko takoj začnete pogovor z menoj ali pa odprete [Nastavitve asistenta]({{url}}) za dopolnitev mojih informacij.",
+  "agentDefaultMessageWithSystemRole": "Pozdravljeni, sem **{{name}}**, {{systemRole}}. Začnimo pogovor!",
+  "agentDefaultMessageWithoutEdit": "Pozdravljeni, sem **{{name}}**, začnimo pogovor!",
+  "agents": "Asistenti",
   "artifact": {
-    "generating": "Generating",
-    "inThread": "Cannot view in subtopic, please switch to the main conversation area to open",
-    "thinking": "Thinking",
-    "thought": "Thought",
-    "unknownTitle": "Untitled Work"
+    "generating": "Generiranje",
+    "inThread": "Ogled v podtemi ni mogoč, prosimo, preklopite na glavno pogovorno območje za odprtje",
+    "thinking": "Razmišljanje",
+    "thought": "Misel",
+    "unknownTitle": "Neimenovano delo"
   },
-  "backToBottom": "Back to bottom",
+  "backToBottom": "Nazaj na dno",
   "chatList": {
-    "longMessageDetail": "View Details"
+    "longMessageDetail": "Ogled podrobnosti"
   },
   "clearCurrentMessages": "Počisti sporočila trenutne seje",
-  "confirmClearCurrentMessages": "You are about to clear the current session messages. Once cleared, they cannot be retrieved. Please confirm your action.",
-  "confirmRemoveSessionItemAlert": "You are about to delete this assistant. Once deleted, it cannot be retrieved. Please confirm your action.",
-  "confirmRemoveSessionSuccess": "Assistant removed successfully",
-  "defaultAgent": "Default Assistant",
+  "confirmClearCurrentMessages": "Ste prepričani, da želite počistiti sporočila trenutne seje? Ko jih izbrišete, jih ne boste mogli več obnoviti. Prosimo, potrdite svojo odločitev.",
+  "confirmRemoveSessionItemAlert": "Ste prepričani, da želite izbrisati tega asistenta? Ko ga izbrišete, ga ne boste mogli več obnoviti. Prosimo, potrdite svojo odločitev.",
+  "confirmRemoveSessionSuccess": "Asistent je bil uspešno odstranjen",
+  "defaultAgent": "Privzeti asistent",
   "defaultList": "Privzeti seznam",
-  "defaultSession": "Default Assistant",
+  "defaultSession": "Privzeti asistent",
   "duplicateSession": {
-    "loading": "Copying...",
-    "success": "Copy successful",
-    "title": "{{title}} Copy"
+    "loading": "Kopiranje...",
+    "success": "Kopiranje uspešno",
+    "title": "{{title}} Kopija"
   },
-  "duplicateTitle": "{{title}} Copy",
-  "emptyAgent": "No assistant available",
+  "duplicateTitle": "{{title}} Kopija",
+  "emptyAgent": "Ni razpoložljivega asistenta",
   "extendParams": {
     "disableContextCaching": {
-      "desc": "The cost of generating a single conversation can be reduced by up to 90%, and the response speed is increased by 4 times (<1>Learn more</1>). Enabling this will automatically disable the limit on the number of historical messages.",
-      "title": "Enable Context Caching"
+      "desc": "Stroški generiranja enega pogovora se lahko zmanjšajo do 90 %, hitrost odgovora pa se poveča 4-krat (<1>Več informacij</1>). Če to omogočite, bo samodejno onemogočena omejitev števila zgodovinskih sporočil.",
+      "title": "Omogoči predpomnjenje konteksta"
     },
     "enableReasoning": {
-      "desc": "Based on the Claude Thinking mechanism limit (<1>Learn more</1>), enabling this will automatically disable the limit on the number of historical messages.",
-      "title": "Enable Deep Thinking"
+      "desc": "Na podlagi omejitve mehanizma Claude Thinking (<1>Več informacij</1>) bo omogočitev te funkcije samodejno onemogočila omejitev števila zgodovinskih sporočil.",
+      "title": "Omogoči globoko razmišljanje"
     },
     "reasoningBudgetToken": {
-      "title": "Thinking Consumption Token"
+      "title": "Žeton porabe razmišljanja"
     },
-    "title": "Model Extension Features"
+    "title": "Razširitvene funkcije modela"
   },
   "history": {
-    "title": "The assistant will only remember the last {{count}} messages."
+    "title": "Asistent si bo zapomnil samo zadnjih {{count}} sporočil."
   },
-  "historyRange": "History Range",
-  "historySummary": "Historical Message Summary",
+  "historyRange": "Obseg zgodovine",
+  "historySummary": "Povzetek zgodovinskih sporočil",
   "inbox": {
-    "desc": "Activate the brain cluster and spark creative thinking. Your virtual assistant is here to communicate with you about everything.",
-    "title": "Samo Klepet"
+    "desc": "Aktivirajte miselni klaster in spodbudite ustvarjalno razmišljanje. Vaš virtualni asistent je tukaj, da komunicira z vami o vsem.",
+    "title": "Samo klepet"
   },
   "input": {
-    "addAi": "Dodajte AI sporočilo",
-    "addUser": "Dodajte uporabniško sporočilo",
-    "more": "more",
+    "addAi": "Dodaj AI sporočilo",
+    "addUser": "Dodaj uporabniško sporočilo",
+    "more": "več",
     "send": "Pošlji",
-    "sendWithCmdEnter": "Press {{meta}} + Enter to send",
-    "sendWithEnter": "Pritisni Enter za poslat",
+    "sendWithCmdEnter": "Pritisnite {{meta}} + Enter za pošiljanje",
+    "sendWithEnter": "Pritisni Enter za pošiljanje",
     "stop": "Ustavi",
     "warp": "Nova vrstica"
   },
   "intentUnderstanding": {
-    "title": "Understanding and analyzing your intent..."
+    "title": "Razumevanje in analiza vašega namena..."
   },
   "knowledgeBase": {
-    "all": "All Content",
-    "allFiles": "All Files",
-    "allKnowledgeBases": "All Knowledge Bases",
-    "disabled": "The current deployment mode does not support knowledge base conversations. To use this feature, please switch to server-side database deployment or use the {{cloud}} service.",
+    "all": "Vsa vsebina",
+    "allFiles": "Vse datoteke",
+    "allKnowledgeBases": "Vse baze znanja",
+    "disabled": "Trenutni način uvedbe ne podpira pogovorov z bazo znanja. Če želite uporabljati to funkcijo, preklopite na uvedbo strežniške baze podatkov ali uporabite storitev {{cloud}}.",
     "library": {
       "action": {
-        "add": "Add",
-        "detail": "Details",
-        "remove": "Remove"
+        "add": "Dodaj",
+        "detail": "Podrobnosti",
+        "remove": "Odstrani"
       },
-      "title": "Files/Knowledge Base"
+      "title": "Datoteke/Baza znanja"
     },
-    "relativeFilesOrKnowledgeBases": "Related Files/Knowledge Bases",
-    "title": "Baza Znanja",
-    "uploadGuide": "Uploaded files can be viewed in the 'Knowledge Base'.",
-    "viewMore": "View More"
+    "relativeFilesOrKnowledgeBases": "Povezane datoteke/baze znanja",
+    "title": "Baza znanja",
+    "uploadGuide": "Naložene datoteke si lahko ogledate v 'Bazi znanja'.",
+    "viewMore": "Poglej več"
   },
   "messageAction": {
-    "delAndRegenerate": "Delete and Regenerate",
-    "deleteDisabledByThreads": "There are subtopics, deletion is not allowed",
-    "regenerate": "Regenerate"
+    "delAndRegenerate": "Izbriši in ustvari znova",
+    "deleteDisabledByThreads": "Obstajajo podteme, brisanje ni dovoljeno",
+    "regenerate": "Ustvari znova"
   },
   "messages": {
     "modelCard": {
-      "credit": "Credits",
-      "creditPricing": "Pricing",
-      "creditTooltip": "For counting purposes, we convert $1 to 1M credits; for example, $3/M tokens can be converted to 3 credits/token.",
+      "credit": "Krediti",
+      "creditPricing": "Cenik",
+      "creditTooltip": "Za namene štetja pretvorimo 1 USD v 1M kreditov; na primer, 3 USD/M žetonov lahko pretvorimo v 3 kredite/žeton.",
       "pricing": {
-        "inputCachedTokens": "Cached input {{amount}}/credits · ${{amount}}/M",
-        "inputCharts": "${{amount}}/M characters",
-        "inputMinutes": "${{amount}}/minute",
-        "inputTokens": "Input {{amount}}/credits · ${{amount}}/M",
-        "outputTokens": "Output {{amount}}/credits · ${{amount}}/M",
-        "writeCacheInputTokens": "Cache input write {{amount}}/points · ${{amount}}/M"
+        "inputCachedTokens": "Predpomnjeni vnos {{amount}}/kreditov · ${{amount}}/M",
+        "inputCharts": "${{amount}}/M znakov",
+        "inputMinutes": "${{amount}}/minuta",
+        "inputTokens": "Vnos {{amount}}/kreditov · ${{amount}}/M",
+        "outputTokens": "Izhod {{amount}}/kreditov · ${{amount}}/M",
+        "writeCacheInputTokens": "Predpomnjeno pisanje vnosa {{amount}}/točk · ${{amount}}/M"
       }
     },
     "tokenDetails": {
-      "average": "Average unit price",
-      "input": "Input",
-      "inputAudio": "Audio Input",
-      "inputCached": "Cached Input",
-      "inputCitation": "Input citation",
-      "inputText": "Text Input",
-      "inputTitle": "Input Details",
-      "inputUncached": "Uncached Input",
-      "inputWriteCached": "Input cache write",
-      "output": "Output",
-      "outputAudio": "Audio Output",
-      "outputText": "Text Output",
-      "outputTitle": "Output Details",
-      "reasoning": "Deep Thinking",
-      "title": "Generation Details",
-      "total": "Total Consumption"
+      "average": "Povprečna enotna cena",
+      "input": "Vnos",
+      "inputAudio": "Zvočni vnos",
+      "inputCached": "Predpomnjen vnos",
+      "inputCitation": "Navedba vnosa",
+      "inputText": "Besedilni vnos",
+      "inputTitle": "Podrobnosti vnosa",
+      "inputUncached": "Nepredpomnjen vnos",
+      "inputWriteCached": "Predpomnjeno pisanje vnosa",
+      "output": "Izhod",
+      "outputAudio": "Zvočni izhod",
+      "outputText": "Besedilni izhod",
+      "outputTitle": "Podrobnosti izhoda",
+      "reasoning": "Globoko razmišljanje",
+      "title": "Podrobnosti generacije",
+      "total": "Skupna poraba"
     }
   },
-  "newAgent": "New Assistant",
-  "pin": "Pin",
-  "pinOff": "Unpin",
+  "newAgent": "Nov asistent",
+  "pin": "Pripni",
+  "pinOff": "Odpni",
   "rag": {
-    "referenceChunks": "Reference Source",
+    "referenceChunks": "Referenčni vir",
     "userQuery": {
       "actions": {
-        "delete": "Delete Query Rewrite",
-        "regenerate": "Regenerate Query"
+        "delete": "Izbriši ponovni zapis poizvedbe",
+        "regenerate": "Ponovno ustvari poizvedbo"
       }
     }
   },
-  "regenerate": "Regenerate",
-  "roleAndArchive": "Role and Archive",
+  "regenerate": "Ponovno ustvari",
+  "roleAndArchive": "Vloga in arhiv",
   "search": {
     "grounding": {
-      "searchQueries": "Search Keywords",
-      "title": "Found {{count}} results"
+      "searchQueries": "Iskalni pojmi",
+      "title": "Najdeno {{count}} rezultatov"
     },
     "mode": {
       "auto": {
-        "desc": "Intelligently determine whether a search is needed based on the conversation content",
-        "title": "Smart Online Search"
+        "desc": "Pametno določi, ali je iskanje potrebno glede na vsebino pogovora",
+        "title": "Pametno iskanje v spletu"
       },
       "off": {
-        "desc": "Use only the model's basic knowledge without performing a web search",
-        "title": "Disable Online Search"
+        "desc": "Uporabi samo osnovno znanje modela brez iskanja po spletu",
+        "title": "Onemogoči iskanje v spletu"
       },
       "on": {
-        "desc": "Continuously perform web searches to obtain the latest information",
-        "title": "Always Online"
+        "desc": "Neprestano izvaja iskanje po spletu za pridobitev najnovejših informacij",
+        "title": "Vedno v spletu"
       },
-      "useModelBuiltin": "Use the model's built-in search engine"
+      "useModelBuiltin": "Uporabi vgrajeni iskalnik modela"
     },
     "searchModel": {
-      "desc": "The current model does not support function calls, so it needs to be paired with a model that does support function calls for online searching.",
-      "title": "Search Assistant Model"
+      "desc": "Trenutni model ne podpira klicev funkcij, zato mora biti povezan z modelom, ki podpira klice funkcij za iskanje po spletu.",
+      "title": "Iskalni model asistenta"
     },
-    "title": "Online Search"
+    "title": "Iskanje v spletu"
   },
-  "searchAgentPlaceholder": "Search assistants...",
+  "searchAgentPlaceholder": "Iskanje po asistentih...",
   "sendPlaceholder": "Tukaj vnesite svoje sporočilo...",
   "sessionGroup": {
-    "config": "Group Management",
-    "confirmRemoveGroupAlert": "This group is about to be deleted. After deletion, the assistants in this group will be moved to the default list. Please confirm your operation.",
-    "createAgentSuccess": "Assistant created successfully",
-    "createGroup": "Add New Group",
-    "createSuccess": "Created successfully",
-    "creatingAgent": "Creating assistant...",
-    "inputPlaceholder": "Please enter group name...",
-    "moveGroup": "Move to Group",
-    "newGroup": "New Group",
-    "rename": "Rename Group",
-    "renameSuccess": "Renamed successfully",
-    "sortSuccess": "Reorder successful",
-    "sorting": "Group sorting updating...",
-    "tooLong": "Group name length should be between 1-20"
+    "config": "Upravljanje skupin",
+    "confirmRemoveGroupAlert": "Ta skupina bo kmalu izbrisana. Po izbrisu bodo asistenti v tej skupini premaknjeni v privzeti seznam. Prosimo, potrdite svojo operacijo.",
+    "createAgentSuccess": "Asistent je bil uspešno ustvarjen",
+    "createGroup": "Dodaj novo skupino",
+    "createSuccess": "Uspešno ustvarjeno",
+    "creatingAgent": "Ustvarjanje asistenta...",
+    "inputPlaceholder": "Vnesite ime skupine...",
+    "moveGroup": "Premakni v skupino",
+    "newGroup": "Nova skupina",
+    "rename": "Preimenuj skupino",
+    "renameSuccess": "Uspešno preimenovano",
+    "sortSuccess": "Uspešno preurejeno",
+    "sorting": "Posodabljanje razvrstitve skupin...",
+    "tooLong": "Dolžina imena skupine mora biti med 1 in 20"
   },
   "shareModal": {
-    "copy": "Copy",
-    "download": "Download Screenshot",
-    "downloadFile": "Download File",
-    "exportTitle": "Default Title",
-    "imageType": "Image Format",
-    "includeTool": "Include Plugin Messages",
-    "includeUser": "Include User Messages",
-    "screenshot": "Screenshot",
-    "settings": "Export Settings",
-    "text": "Text",
-    "withBackground": "Include Background Image",
-    "withFooter": "Include Footer",
-    "withPluginInfo": "Include Plugin Information",
-    "withRole": "Include Message Role",
-    "withSystemRole": "Include Assistant Role Setting"
+    "copy": "Kopiraj",
+    "download": "Prenesi posnetek zaslona",
+    "downloadFile": "Prenesi datoteko",
+    "exportTitle": "Privzeti naslov",
+    "imageType": "Vrsta slike",
+    "includeTool": "Vključi sporočila vtičnikov",
+    "includeUser": "Vključi uporabniška sporočila",
+    "screenshot": "Posnetek zaslona",
+    "settings": "Nastavitve izvoza",
+    "text": "Besedilo",
+    "withBackground": "Vključi ozadje",
+    "withFooter": "Vključi nogo",
+    "withPluginInfo": "Vključi informacije o vtičnikih",
+    "withRole": "Vključi vlogo sporočila",
+    "withSystemRole": "Vključi nastavitev vloge asistenta"
   },
   "stt": {
-    "action": "Voice Input",
-    "loading": "Recognizing...",
-    "prettifying": "Polishing..."
+    "action": "Glasovni vnos",
+    "loading": "Prepoznavanje...",
+    "prettifying": "Poliranje..."
   },
   "thread": {
-    "divider": "Subtopic",
-    "threadMessageCount": "{{messageCount}} messages",
-    "title": "Subtopic"
+    "divider": "Podtema",
+    "threadMessageCount": "{{messageCount}} sporočil",
+    "title": "Podtema"
   },
   "tokenDetails": {
-    "chats": "Chat Messages",
-    "historySummary": "History Summary",
-    "rest": "Remaining",
-    "systemRole": "Role Settings",
-    "title": "Context Details",
-    "tools": "Plugin Settings",
-    "total": "Total Available",
-    "used": "Total Used"
+    "chats": "Klepetalna sporočila",
+    "historySummary": "Povzetek zgodovine",
+    "rest": "Preostalo",
+    "systemRole": "Nastavitve vlog",
+    "title": "Podrobnosti konteksta",
+    "tools": "Nastavitve vtičnikov",
+    "total": "Skupaj na voljo",
+    "used": "Skupaj porabljeno"
   },
   "tokenTag": {
-    "overload": "Exceeded Limit",
-    "remained": "Remaining",
-    "used": "Used"
+    "overload": "Prekoračitev omejitve",
+    "remained": "Preostalo",
+    "used": "Uporabljeno"
   },
   "topic": {
-    "checkOpenNewTopic": "Enable new topic?",
-    "checkSaveCurrentMessages": "Do you want to save the current conversation as a topic?",
-    "openNewTopic": "Open New Topic",
+    "checkOpenNewTopic": "Omogočiti novo temo?",
+    "checkSaveCurrentMessages": "Ali želite shraniti trenutni pogovor kot temo?",
+    "openNewTopic": "Odpri novo temo",
     "saveCurrentMessages": "Shrani trenutno sejo kot temo"
   },
   "translate": {
-    "action": "Translate",
-    "clear": "Clear Translation"
+    "action": "Prevedi",
+    "clear": "Počisti prevod"
   },
   "tts": {
-    "action": "Text-to-Speech",
-    "clear": "Clear Speech"
+    "action": "Besedilo v govor",
+    "clear": "Počisti govor"
   },
-  "updateAgent": "Update Assistant Information",
+  "updateAgent": "Posodobi informacije o asistentu",
   "upload": {
     "action": {
       "fileUpload": "Naloži datoteko",
@@ -247,17 +247,17 @@
       "tooltip": "Naloži"
     },
     "clientMode": {
-      "actionFiletip": "Upload File",
-      "actionTooltip": "Upload",
-      "disabled": "The current model does not support visual recognition and file analysis. Please switch models to use this feature."
+      "actionFiletip": "Naloži datoteko",
+      "actionTooltip": "Naloži",
+      "disabled": "Trenutni model ne podpira vizualnega prepoznavanja in analize datotek. Prosimo, preklopite na model, ki podpira to funkcijo."
     },
     "preview": {
-      "prepareTasks": "Preparing chunks...",
+      "prepareTasks": "Priprava kosov...",
       "status": {
-        "pending": "Preparing to upload...",
-        "processing": "Processing file..."
+        "pending": "Priprava na nalaganje...",
+        "processing": "Obdelava datoteke..."
       }
     }
   },
-  "zenMode": "Zen Mode"
+  "zenMode": "Zen način"
 }
