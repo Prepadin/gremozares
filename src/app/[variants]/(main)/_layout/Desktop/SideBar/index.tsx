@@ -10,7 +10,7 @@ import { systemStatusSelectors } from '@/store/global/selectors';
 import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 
 import Avatar from './Avatar';
-import BottomActions from './BottomActions';
+//import BottomActions from './BottomActions';
 import PinList from './PinList';
 import TopActions from './TopActions';
 
@@ -27,9 +27,18 @@ const Nav = memo(() => {
 
   return (
     !inZenMode && (
+      // <SideNav
+      //   avatar={<Avatar />}
+      //   bottomActions={<BottomActions />}
+      //   style={{ height: '100%', zIndex: 100 }}
+      //   topActions={
+      //     <Suspense>
+      //       <Top />
+      //       {showPinList && <PinList />}
+      //     </Suspense>
       <SideNav
         avatar={<Avatar />}
-        bottomActions={<BottomActions />}
+        bottomActions={null} // or bottomActions={undefined}
         style={{ height: '100%', zIndex: 100 }}
         topActions={
           <Suspense>
