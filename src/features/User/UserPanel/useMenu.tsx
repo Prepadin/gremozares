@@ -1,4 +1,4 @@
-import { DiscordIcon, Icon } from '@lobehub/ui';
+import { Icon } from '@lobehub/ui';
 import { Badge } from 'antd';
 import { ItemType } from 'antd/es/menu/interface';
 import {
@@ -6,9 +6,6 @@ import {
   CircleUserRound,
   Cloudy,
   Download,
-  Feather,
-  FileClockIcon,
-  HardDriveDownload,
   HardDriveUpload,
   LifeBuoy,
   LogOut,
@@ -24,16 +21,13 @@ import type { MenuProps } from '@/components/Menu';
 import { enableAuth } from '@/const/auth';
 import { LOBE_CHAT_CLOUD } from '@/const/branding';
 import {
-  DISCORD,
   DOCUMENTS_REFER_URL,
   EMAIL_SUPPORT,
-  GITHUB_ISSUES,
   OFFICIAL_URL,
   UTM_SOURCE,
   mailTo,
 } from '@/const/url';
 import { isServerMode } from '@/const/version';
-import DataImporter from '@/features/DataImporter';
 import { usePWAInstall } from '@/hooks/usePWAInstall';
 import { configService } from '@/services/config';
 import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
@@ -116,11 +110,11 @@ export const useMenu = () => {
   const data = !isLogin
     ? []
     : ([
-        {
-          icon: <Icon icon={HardDriveDownload} />,
-          key: 'import',
-          label: <DataImporter>{t('import')}</DataImporter>,
-        },
+        // {
+        //   icon: <Icon icon={HardDriveDownload} />,
+        //   key: 'import',
+        //   label: <DataImporter>{t('import')}</DataImporter>,
+        // },
         isServerMode
           ? null
           : {
@@ -168,11 +162,11 @@ export const useMenu = () => {
         </Link>
       ),
     },
-    {
-      icon: <Icon icon={FileClockIcon} />,
-      key: 'changelog',
-      label: <Link href={'/changelog/modal'}>{t('changelog')}</Link>,
-    },
+    // {
+    //   icon: <Icon icon={FileClockIcon} />,
+    //   key: 'changelog',
+    //   label: <Link href={'/changelog/modal'}>{t('changelog')}</Link>,
+    // },
     {
       children: [
         {
@@ -184,24 +178,24 @@ export const useMenu = () => {
             </Link>
           ),
         },
-        {
-          icon: <Icon icon={Feather} />,
-          key: 'feedback',
-          label: (
-            <Link href={GITHUB_ISSUES} target={'_blank'}>
-              {t('userPanel.feedback')}
-            </Link>
-          ),
-        },
-        {
-          icon: <Icon icon={DiscordIcon} />,
-          key: 'discord',
-          label: (
-            <Link href={DISCORD} target={'_blank'}>
-              {t('userPanel.discord')}
-            </Link>
-          ),
-        },
+        // {
+        //   icon: <Icon icon={Feather} />,
+        //   key: 'feedback',
+        //   label: (
+        //     <Link href={GITHUB_ISSUES} target={'_blank'}>
+        //       {t('userPanel.feedback')}
+        //     </Link>
+        //   ),
+        // },
+        // {
+        //   icon: <Icon icon={DiscordIcon} />,
+        //   key: 'discord',
+        //   label: (
+        //     <Link href={DISCORD} target={'_blank'}>
+        //       {t('userPanel.discord')}
+        //     </Link>
+        //   ),
+        // },
         {
           icon: <Icon icon={Mail} />,
           key: 'email',
