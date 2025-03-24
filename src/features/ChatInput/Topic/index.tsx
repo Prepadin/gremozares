@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@lobehub/ui';
 import { Button, Popconfirm } from 'antd';
 import { LucideGalleryVerticalEnd, LucideMessageSquarePlus } from 'lucide-react';
 import { memo, useState } from 'react';
@@ -49,14 +49,14 @@ const SaveTopic = memo<{ mobile?: boolean }>(({ mobile }) => {
           </div>
         }
       >
-        <Tooltip>
+        {/* <Tooltip>
           <ActionIcon
             aria-label={desc}
             icon={icon}
             loading={isValidating}
             onClick={() => setConfirmOpened(true)}
           />
-        </Tooltip>
+        </Tooltip> */}
       </Popconfirm>
     );
   } else {
