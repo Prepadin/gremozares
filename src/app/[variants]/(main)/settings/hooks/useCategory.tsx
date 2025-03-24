@@ -1,6 +1,6 @@
 import { Icon } from '@lobehub/ui';
 import { Tag } from 'antd';
-import { Bot, Brain, Cloudy, Mic2, Settings2, Sparkles } from 'lucide-react';
+import { Bot, Brain, Cloudy, Settings2, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -13,7 +13,7 @@ import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfi
 
 export const useCategory = () => {
   const { t } = useTranslation('setting');
-  const { enableWebrtc, showLLM, enableSTT } = useServerConfigStore(featureFlagsSelectors);
+  const { enableWebrtc, showLLM } = useServerConfigStore(featureFlagsSelectors);
 
   const cateItems: MenuProps['items'] = useMemo(
     () =>
@@ -72,15 +72,15 @@ export const useCategory = () => {
                 ),
               }),
 
-        enableSTT && {
-          icon: <Icon icon={Mic2} />,
-          key: SettingsTabs.TTS,
-          label: (
-            <Link href={'/settings/tts'} onClick={(e) => e.preventDefault()}>
-              {t('tab.tts')}
-            </Link>
-          ),
-        },
+        // enableSTT && {
+        //   icon: <Icon icon={Mic2} />,
+        //   key: SettingsTabs.TTS,
+        //   label: (
+        //     <Link href={'/settings/tts'} onClick={(e) => e.preventDefault()}>
+        //       {t('tab.tts')}
+        //     </Link>
+        //   ),
+        // },
         {
           icon: <Icon icon={Bot} />,
           key: SettingsTabs.Agent,
