@@ -1,7 +1,6 @@
 'use client';
 
 import { Form, type ItemGroup, SelectWithImg, SliderWithInput } from '@lobehub/ui';
-import { Select } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { Monitor, Moon, Sun } from 'lucide-react';
 import { memo } from 'react';
@@ -10,7 +9,6 @@ import { useTranslation } from 'react-i18next';
 import { useSyncSettings } from '@/app/[variants]/(main)/settings/hooks/useSyncSettings';
 import { FORM_STYLE } from '@/const/layoutTokens';
 import { imageUrl } from '@/const/url';
-import { Locales, localeOptions } from '@/locales/resources';
 import { useGlobalStore } from '@/store/global';
 import { systemStatusSelectors } from '@/store/global/selectors';
 import { useUserStore } from '@/store/user';
@@ -30,11 +28,11 @@ const Theme = memo(() => {
   const [setThemeMode] = useGlobalStore((s) => [s.switchThemeMode]);
 
   useSyncSettings(form);
-  const [switchLocale] = useGlobalStore((s) => [s.switchLocale]);
+  // const [switchLocale] = useGlobalStore((s) => [s.switchLocale]);
 
-  const handleLangChange = (value: Locales) => {
-    switchLocale(value);
-  };
+  // const handleLangChange = (value: Locales) => {
+  //   switchLocale(value);
+  // };
 
   const theme: SettingItemGroup = {
     children: [
@@ -71,16 +69,16 @@ const Theme = memo(() => {
         label: t('settingTheme.themeMode.title'),
         minWidth: undefined,
       },
-      {
-        children: (
-          <Select
-            onChange={handleLangChange}
-            options={[{ label: t('settingTheme.lang.autoMode'), value: 'auto' }, ...localeOptions]}
-          />
-        ),
-        label: t('settingTheme.lang.title'),
-        name: ['general', 'language'],
-      },
+      // {
+      //   children: (
+      //     <Select
+      //       onChange={handleLangChange}
+      //       options={[{ label: t('settingTheme.lang.autoMode'), value: 'auto' }, ...localeOptions]}
+      //     />
+      //   ),
+      //   label: t('settingTheme.lang.title'),
+      //   name: ['general', 'language'],
+      // },
       {
         children: (
           <SliderWithInput

@@ -1,6 +1,6 @@
 import { Icon } from '@lobehub/ui';
 import { Tag } from 'antd';
-import { Bot, Brain, Cloudy, Info, Mic2, Settings2, Sparkles } from 'lucide-react';
+import { Bot, Brain, Cloudy, Mic2, Settings2, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -13,8 +13,7 @@ import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfi
 
 export const useCategory = () => {
   const { t } = useTranslation('setting');
-  const { enableWebrtc, showLLM, enableSTT, hideDocs } =
-    useServerConfigStore(featureFlagsSelectors);
+  const { enableWebrtc, showLLM, enableSTT } = useServerConfigStore(featureFlagsSelectors);
 
   const cateItems: MenuProps['items'] = useMemo(
     () =>
@@ -52,26 +51,26 @@ export const useCategory = () => {
           ),
         },
         showLLM &&
-        // TODO: Remove /llm when v2.0
-        (isDeprecatedEdition
-          ? {
-              icon: <Icon icon={Brain} />,
-              key: SettingsTabs.LLM,
-              label: (
-                <Link href={'/settings/llm'} onClick={(e) => e.preventDefault()}>
-                  {t('tab.llm')}
-                </Link>
-              ),
-            }
-          : {
-              icon: <Icon icon={Brain} />,
-              key: SettingsTabs.Provider,
-              label: (
-                <Link href={'/settings/provider'} onClick={(e) => e.preventDefault()}>
-                  {t('tab.provider')}
-                </Link>
-              ),
-            }),
+          // TODO: Remove /llm when v2.0
+          (isDeprecatedEdition
+            ? {
+                icon: <Icon icon={Brain} />,
+                key: SettingsTabs.LLM,
+                label: (
+                  <Link href={'/settings/llm'} onClick={(e) => e.preventDefault()}>
+                    {t('tab.llm')}
+                  </Link>
+                ),
+              }
+            : {
+                icon: <Icon icon={Brain} />,
+                key: SettingsTabs.Provider,
+                label: (
+                  <Link href={'/settings/provider'} onClick={(e) => e.preventDefault()}>
+                    {t('tab.provider')}
+                  </Link>
+                ),
+              }),
 
         enableSTT && {
           icon: <Icon icon={Mic2} />,
@@ -91,15 +90,15 @@ export const useCategory = () => {
             </Link>
           ),
         },
-        !hideDocs && {
-          icon: <Icon icon={Info} />,
-          key: SettingsTabs.About,
-          label: (
-            <Link href={'/settings/about'} onClick={(e) => e.preventDefault()}>
-              {t('tab.about')}
-            </Link>
-          ),
-        },
+        // !hideDocs && {
+        //   icon: <Icon icon={Info} />,
+        //   key: SettingsTabs.About,
+        //   label: (
+        //     <Link href={'/settings/about'} onClick={(e) => e.preventDefault()}>
+        //       {t('tab.about')}
+        //     </Link>
+        //   ),
+        // },
       ].filter(Boolean) as MenuProps['items'],
     [t, enableWebrtc, showLLM],
   );

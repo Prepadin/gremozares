@@ -271,21 +271,177 @@
   },
   "settingTTS": {
     "openai": {
-      "sttModel": "OpenAI model za prepoznavanje govora",
+      "sttModel": "OpenAI Model za prepoznavo govora",
       "title": "OpenAI",
-      "ttsModel": "OpenAI model za pretvorbo besedila v govor"
+      "ttsModel": "OpenAI Model za pretvorbo besedila v govor"
     },
     "showAllLocaleVoice": {
-      "desc": "Če je izklopljeno, bodo prikazane samo glasove v trenutnem jeziku",
-      "title": "Pokaži vse glasove za jezik"
+      "desc": "Če je onemogočeno, bodo prikazani samo glasovi v trenutnem jeziku",
+      "title": "Prikaži vse lokalne glasove"
     },
-    "stt": "Nastavitve za prepoznavanje govora",
-    "title": "Nastavitve za prepoznavanje govora in pretvorbo besedila v govor",
-    "tts": "Nastavitve za pretvorbo besedila v govor"
+    "stt": "Nastavitve prepoznavanja govora",
+    "sttAutoStop": {
+      "desc": "Če je onemogočeno, se prepoznavanje govora ne bo samodejno končalo in bo zahtevalo ročno zaustavitev",
+      "title": "Samodejna zaustavitev prepoznavanja govora"
+    },
+    "sttLocale": {
+      "desc": "Jezik vnosa govora; ta možnost lahko izboljša natančnost prepoznavanja",
+      "title": "Jezik prepoznavanja govora"
+    },
+    "sttService": {
+      "desc": "Kjer je 'brskalnik' izvorna storitev prepoznavanja govora brskalnika",
+      "title": "Storitev prepoznavanja govora"
+    },
+    "title": "Storitev govora",
+    "tts": "Nastavitve pretvorbe besedila v govor",
+    "ttsService": {
+      "desc": "Če uporabljate OpenAI storitev za pretvorbo besedila v govor, se prepričajte, da je model OpenAI omogočen",
+      "title": "Storitev pretvorbe besedila v govor"
+    },
+    "voice": {
+      "desc": "Izberite glas za trenutnega asistenta; različne storitve TTS podpirajo različne glasove",
+      "preview": "Predogled glasu",
+      "title": "Glas pretvorbe besedila v govor"
+    }
   },
-  "testing": {
-    "currentModel": "Trenutni model",
-    "stopGeneration": "Ustavite ustvarjanje",
-    "title": "Testiranje"
+  "settingTheme": {
+    "avatar": {
+      "title": "Avatar"
+    },
+    "fontSize": {
+      "desc": "Velikost pisave za klepet",
+      "marks": {
+        "normal": "Običajno"
+      },
+      "title": "Velikost pisave"
+    },
+    "lang": {
+      "autoMode": "Sledi sistemu",
+      "title": "Jezik"
+    },
+    "neutralColor": {
+      "desc": "Prilagojena nevtralna barva za različne barvne nianse",
+      "title": "Nevtralna barva"
+    },
+    "primaryColor": {
+      "desc": "Prilagojena primarna barva teme",
+      "title": "Primarna barva"
+    },
+    "themeMode": {
+      "auto": "Samodejno",
+      "dark": "Temno",
+      "light": "Svetlo",
+      "title": "Tema"
+    },
+    "title": "Nastavitve teme"
+  },
+  "submitAgentModal": {
+    "button": "Pošlji asistenta",
+    "identifier": "Identifikator asistenta",
+    "metaMiss": "Pred oddajo izpolnite podatke o asistentu. Vključevati mora ime, opis in oznake",
+    "placeholder": "Vnesite edinstven identifikator asistenta, npr. web-development",
+    "tooltips": "Delite na tržnici asistentov"
+  },
+  "sync": {
+    "device": {
+      "deviceName": {
+        "hint": "Dodajte ime za lažje prepoznavanje",
+        "placeholder": "Vnesite ime naprave",
+        "title": "Ime naprave"
+      },
+      "title": "Podatki o napravi",
+      "unknownBrowser": "Neznan brskalnik",
+      "unknownOS": "Neznan operacijski sistem"
+    },
+    "warning": {
+      "tip": "Po dolgotrajnem testiranju v skupnosti se je izkazalo, da sinhronizacija WebRTC morda ni zanesljiva za splošne potrebe sinhronizacije podatkov. Prosimo, <1>namestite strežnik za signalizacijo</1> pred uporabo."
+    },
+    "webrtc": {
+      "channelName": {
+        "desc": "WebRTC bo uporabil to ime za ustvarjanje sinhronizacijskega kanala. Zagotovite, da je ime edinstveno.",
+        "placeholder": "Vnesite ime sinhronizacijskega kanala",
+        "shuffle": "Naključno generiraj",
+        "title": "Ime sinhronizacijskega kanala"
+      },
+      "channelPassword": {
+        "desc": "Dodajte geslo za zagotavljanje zasebnosti kanala. Le naprave s pravilnim geslom se lahko pridružijo kanalu.",
+        "placeholder": "Vnesite geslo sinhronizacijskega kanala",
+        "title": "Geslo sinhronizacijskega kanala"
+      },
+      "desc": "Za komunikacijo v realnem času med napravami morajo biti vse naprave povezane na spletu.",
+      "enabled": {
+        "invalid": "Pred omogočanjem izpolnite naslov strežnika za signalizacijo in ime sinhronizacijskega kanala.",
+        "title": "Omogoči sinhronizacijo"
+      },
+      "signaling": {
+        "desc": "WebRTC bo uporabil ta naslov za sinhronizacijo",
+        "placeholder": "Vnesite naslov strežnika za signalizacijo",
+        "title": "Strežnik za signalizacijo"
+      },
+      "title": "WebRTC sinhronizacija"
+    }
+  },
+  "systemAgent": {
+    "agentMeta": {
+      "label": "Model za generiranje metapodatkov asistenta",
+      "modelDesc": "Model, določen za ustvarjanje imena, opisa, avatarja in oznak asistenta",
+      "title": "Samodejno generiranje informacij o asistentu"
+    },
+    "customPrompt": {
+      "addPrompt": "Dodaj prilagojen poziv",
+      "desc": "Ko je izpolnjen, bo sistemski asistent uporabil prilagojen poziv pri generiranju vsebine",
+      "placeholder": "Vnesite prilagojen poziv",
+      "title": "Prilagojen poziv"
+    },
+    "historyCompress": {
+      "label": "Model zgodovine pogovorov",
+      "modelDesc": "Določite model za stiskanje zgodovine pogovorov",
+      "title": "Samodejno povzemanje zgodovine pogovorov"
+    },
+    "queryRewrite": {
+      "label": "Model za preoblikovanje vprašanj",
+      "modelDesc": "Določite model za optimizacijo uporabniških poizvedb",
+      "title": "Preoblikovanje vprašanj v zbirki znanja"
+    },
+    "thread": {
+      "label": "Model poimenovanja podtem",
+      "modelDesc": "Model, določen za samodejno preimenovanje podtem",
+      "title": "Samodejno poimenovanje podtem"
+    },
+    "title": "Sistemski asistenti",
+    "topic": {
+      "label": "Model poimenovanja tem",
+      "modelDesc": "Model, določen za samodejno preimenovanje tem",
+      "title": "Samodejno poimenovanje tem"
+    },
+    "translation": {
+      "label": "Prevajalski asistent",
+      "modelDesc": "Določeni model za prevajanje sporočil",
+      "title": "Nastavitve prevajanja"
+    }
+  },
+  "tab": {
+    "about": "O programu",
+    "agent": "Privzeti asistent",
+    "common": "Splošne nastavitve",
+    "experiment": "Eksperiment",
+    "llm": "Jezikovni model",
+    "provider": "Ponudnik AI storitev",
+    "sync": "Spletna sinhronizacija",
+    "system-agent": "Sistemski asistent",
+    "tts": "Pretvorba besedila v govor"
+  },
+  "tools": {
+    "builtins": {
+      "groupName": "Vgrajena orodja"
+    },
+    "disabled": "Trenutni model ne podpira klicev funkcij in ne more uporabljati vtičnikov",
+    "plugins": {
+      "enabled": "Omogočeno: {{num}}",
+      "groupName": "Vtičniki",
+      "noEnabled": "Ni omogočenih vtičnikov",
+      "store": "Trgovina z vtičniki"
+    },
+    "title": "Razširitvena orodja"
   }
 }
