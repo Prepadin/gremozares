@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
 import InitClientDB from '@/features/InitClientDB';
-import Footer from '@/features/Setting/Footer';
 import SettingContainer from '@/features/Setting/SettingContainer';
 import { useActiveSettingsKey } from '@/hooks/useActiveTabKey';
 import { SettingsTabs } from '@/store/global/initialState';
@@ -45,7 +44,7 @@ const Layout = memo<LayoutProps>(({ children, category }) => {
           {category}
         </Header>
       )}
-      <SettingContainer addonAfter={<Footer />}>{children}</SettingContainer>
+      <SettingContainer>{children}</SettingContainer>
       <InitClientDB />
     </Flexbox>
   );
