@@ -33,7 +33,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       style={{ color: theme.colorTextDescription, fontSize: 12, ...style }}
       {...rest}
     >
-      <span>Poganja ga GremoChat</span>
+      <span>Poganja ga</span>
       {isCustomORG ? (
         <span>{ORG_NAME}</span>
       ) : (

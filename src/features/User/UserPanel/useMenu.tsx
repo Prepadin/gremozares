@@ -20,13 +20,7 @@ import { Flexbox } from 'react-layout-kit';
 import type { MenuProps } from '@/components/Menu';
 import { enableAuth } from '@/const/auth';
 import { LOBE_CHAT_CLOUD } from '@/const/branding';
-import {
-  DOCUMENTS_REFER_URL,
-  EMAIL_SUPPORT,
-  OFFICIAL_URL,
-  UTM_SOURCE,
-  mailTo,
-} from '@/const/url';
+import { DOCUMENTS_REFER_URL, EMAIL_SUPPORT, OFFICIAL_URL, UTM_SOURCE, mailTo } from '@/const/url';
 import { isServerMode } from '@/const/version';
 import { usePWAInstall } from '@/hooks/usePWAInstall';
 import { configService } from '@/services/config';
@@ -34,7 +28,6 @@ import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfi
 import { useUserStore } from '@/store/user';
 import { authSelectors } from '@/store/user/selectors';
 
-import { useNewVersion } from './useNewVersion';
 
 const NewVersionBadge = memo(
   ({
@@ -60,7 +53,7 @@ const NewVersionBadge = memo(
 
 export const useMenu = () => {
   const { canInstall, install } = usePWAInstall();
-  const hasNewVersion = useNewVersion();
+  // const hasNewVersion = useNewVersion();
   const { t } = useTranslation(['common', 'setting', 'auth']);
   const { showCloudPromotion, hideDocs } = useServerConfigStore(featureFlagsSelectors);
   const [isLogin, isLoginWithAuth] = useUserStore((s) => [
@@ -82,7 +75,7 @@ export const useMenu = () => {
       key: 'setting',
       label: (
         <Link href={'/settings/common'}>
-          <NewVersionBadge showBadge={hasNewVersion}>{t('userPanel.setting')}</NewVersionBadge>
+          <NewVersionBadge>{t('userPanel.setting')}</NewVersionBadge>
         </Link>
       ),
     },

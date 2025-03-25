@@ -146,7 +146,7 @@ const Preview = memo(() => {
             ) : (
               <Flexbox align={'center'} gap={8} horizontal>
                 <Github size={16} />
-                <span>lobehub/lobe-chat</span>
+                {/* <span>lobehub/lobe-chat</span> */}
               </Flexbox>
             )}
           </div>
