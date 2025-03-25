@@ -11,7 +11,7 @@ import { isCustomBranding } from '@/const/version';
 import { useGreeting } from '@/hooks/useGreeting';
 import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 
-import AgentsSuggest from './AgentsSuggest';
+// import AgentsSuggest from './AgentsSuggest';
 import QuestionSuggest from './QuestionSuggest';
 
 const useStyles = createStyles(({ css, responsive }) => ({
@@ -60,7 +60,7 @@ const InboxWelcome = memo(() => {
         </Markdown>
         {showWelcomeSuggest && (
           <>
-            <AgentsSuggest mobile={mobile} />
+            {/* <AgentsSuggest mobile={mobile} /> */}
             {!isCustomBranding && <QuestionSuggest mobile={mobile} />}
           </>
         )}

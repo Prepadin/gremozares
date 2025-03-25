@@ -20,14 +20,14 @@ import InputArea from './InputArea';
 import SendButton from './Send';
 
 const defaultLeftActions: ActionKeys[] = [
-  'model',
-  'search',
+  // 'model',
+  // 'search',
   'fileUpload',
   'knowledgeBase',
   'history',
-  'tools',
+  // 'tools',
   'params',
-  'mainToken',
+  // 'mainToken',
 ];
 
 const defaultRightActions: ActionKeys[] = ['clear'];
