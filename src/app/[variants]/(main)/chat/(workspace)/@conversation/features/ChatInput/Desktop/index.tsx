@@ -11,15 +11,15 @@ import Footer from './Footer';
 import TextArea from './TextArea';
 
 const leftActions = [
-  'model',
+  // 'model',
   'search',
   'fileUpload',
   'knowledgeBase',
   'params',
   'history',
-  'stt',
-  'tools',
-  'mainToken',
+  // 'stt',
+  //'tools',
+  //'mainToken',
 ] as ActionKeys[];
 
 const rightActions = ['clear'] as ActionKeys[];
