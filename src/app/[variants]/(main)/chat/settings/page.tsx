@@ -11,14 +11,11 @@ import { AgentSettingsProvider } from '@/features/AgentSetting';
 import AgentChat from '@/features/AgentSetting/AgentChat';
 import AgentMeta from '@/features/AgentSetting/AgentMeta';
 import AgentModal from '@/features/AgentSetting/AgentModal';
-import AgentPlugin from '@/features/AgentSetting/AgentPlugin';
 import AgentPrompt from '@/features/AgentSetting/AgentPrompt';
-import AgentTTS from '@/features/AgentSetting/AgentTTS';
 import { useInitAgentConfig } from '@/hooks/useInitAgentConfig';
 import { useAgentStore } from '@/store/agent';
 import { agentSelectors } from '@/store/agent/selectors';
 import { ChatSettingsTabs } from '@/store/global/initialState';
-import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 import { useSessionStore } from '@/store/session';
 import { sessionMetaSelectors } from '@/store/session/selectors';
 
@@ -39,7 +36,7 @@ const EditPage = memo(() => {
 
   const { isLoading } = useInitAgentConfig();
 
-  const { enablePlugins } = useServerConfigStore(featureFlagsSelectors);
+  // const { enablePlugins } = useServerConfigStore(featureFlagsSelectors);
 
   return (
     <>
@@ -63,14 +60,14 @@ const EditPage = memo(() => {
             key: ChatSettingsTabs.Modal,
             label: t('settingModel.title'),
           },
-          {
-            key: ChatSettingsTabs.TTS,
-            label: t('settingTTS.title'),
-          },
-          (enablePlugins && {
-            key: ChatSettingsTabs.Plugin,
-            label: t('settingPlugin.title'),
-          }) as any,
+          // {
+          //   key: ChatSettingsTabs.TTS,
+          //   label: t('settingTTS.title'),
+          // },
+          // (enablePlugins && {
+          //   key: ChatSettingsTabs.Plugin,
+          //   label: t('settingPlugin.title'),
+          // }) as any,
         ]}
         onChange={(value) => setTab(value as ChatSettingsTabs)}
         variant={'compact'}
@@ -87,8 +84,8 @@ const EditPage = memo(() => {
         {tab === ChatSettingsTabs.Meta && <AgentMeta />}
         {tab === ChatSettingsTabs.Chat && <AgentChat />}
         {tab === ChatSettingsTabs.Modal && <AgentModal />}
-        {tab === ChatSettingsTabs.TTS && <AgentTTS />}
-        {tab === ChatSettingsTabs.Plugin && <AgentPlugin />}
+        {/* {tab === ChatSettingsTabs.TTS && <AgentTTS />} */}
+        {/* {tab === ChatSettingsTabs.Plugin && <AgentPlugin />} */}
       </AgentSettingsProvider>
     </>
   );

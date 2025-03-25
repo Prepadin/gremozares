@@ -1,9 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
-import { MessageSquareHeart } from 'lucide-react';
-import Link from 'next/link';
 import { PropsWithChildren, memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Center, Flexbox } from 'react-layout-kit';
@@ -42,8 +39,8 @@ const Footer = memo<PropsWithChildren>(() => {
           width={'100%'}
         >
           <div style={{ textAlign: 'center' }}>
-            <Icon icon={MessageSquareHeart} /> {`${t('footer.title')} `}
-            <Link
+            {/* <Icon icon={MessageSquareHeart} /> {`${t('footer.title')} `} */}
+            {/* <Link
               aria-label={'star'}
               href={GITHUB}
               onClick={(e) => {
@@ -52,9 +49,9 @@ const Footer = memo<PropsWithChildren>(() => {
               }}
             >
               {t('footer.action.star')}
-            </Link>
-            {` ${t('footer.and')} `}
-            <Link
+            </Link> */}
+            {/* {` ${t('footer.and')} `} */}
+            {/* <Link
               aria-label={'feedback'}
               href={GITHUB_ISSUES}
               onClick={(e) => {
@@ -63,8 +60,8 @@ const Footer = memo<PropsWithChildren>(() => {
               }}
             >
               {t('footer.action.feedback')}
-            </Link>
-            {' !'}
+            </Link> */}
+            {/* {' !'} */}
           </div>
         </Center>
       </Flexbox>
